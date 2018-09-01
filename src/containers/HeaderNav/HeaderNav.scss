@@ -1,0 +1,27 @@
+/*
+  The .ui.menu is needed otherwise there's a more specific rule from semantic UI
+  we use this rule to tweak the SCSS
+*/
+.ui.menu.top-menu {
+  border: none;
+  .logo {
+    width: 17rem;
+  }
+  .nav-container {
+    flex-grow: 1;
+    padding: 0;
+
+    .search-input {
+      padding-left: 0;
+      width: 33%;
+
+      form {
+        width: 100%;
+      }
+    }
+  }
+
+  .header-icon {
+    color: #a0a0a0;
+  }
+}
