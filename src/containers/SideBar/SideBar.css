@@ -1,0 +1,13 @@
+.ui.menu.fixed.side-nav {
+  background-color: #f5f5f5;
+  margin-top: 64px;
+  overflow-y: auto;
+  padding-bottom: 64px; }
+  .ui.menu.fixed.side-nav .sidebar-item:hover {
+    background: #ebebeb; }
+  .ui.menu.fixed.side-nav .subscription:hover {
+    background: #ebebeb;
+    cursor: pointer; }
+
+.side-nav.ui.vertical.menu {
+  width: 17rem; }

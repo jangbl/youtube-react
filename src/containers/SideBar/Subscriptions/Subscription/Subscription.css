@@ -1,0 +1,9 @@
+.subscription-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .subscription-wrapper i.icon {
+    color: #ff0002; }
+  .subscription-wrapper .new-videos-count {
+    color: #888888; }
