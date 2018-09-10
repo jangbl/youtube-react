@@ -8,5 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/enzyme" level="application" />
+    <orderEntry type="library" name="@types/enzyme-adapter-react-16" level="application" />
+    <orderEntry type="library" name="@types/enzyme-to-json" level="application" />
+    <orderEntry type="library" name="@types/expect" level="application" />
+    <orderEntry type="library" name="@types/jest" level="application" />
   </component>
 </module>

@@ -8,6 +8,7 @@
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
+    "react-test-renderer": "^16.5.0",
     "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.3"
   },
@@ -20,5 +21,10 @@
     "build": "npm-run-all build-css build-js",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-to-json": "^3.3.4"
   }
 }
