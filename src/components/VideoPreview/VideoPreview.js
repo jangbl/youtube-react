@@ -4,17 +4,13 @@ import './VideoPreview.css';
 
 export class VideoPreview extends React.Component {
   render() {
-    const isHorizontal = this.isPropertySet('horizontal');
     const isVertical = this.isPropertySet('vertical');
     const isGrid = this.isPropertySet('grid');
-    const isExpanded = this.isPropertySet('expanded');
 
     return (
       <div className='video-preview'
-           horizontal={isHorizontal}
            vertical={isVertical}
-           grid={isGrid}
-           expanded={isExpanded}>
+           grid={isGrid}>
         <div className='image-container'>
           <Image src='http://via.placeholder.com/210x118'/>
           <div className='time-label'>
@@ -23,7 +19,7 @@ export class VideoPreview extends React.Component {
         </div>
 
         <div className='video-info'>
-          <div className='semi-bold show-max-two-lines' expanded={isExpanded}>Video title</div>
+          <div className='semi-bold show-max-two-lines'>Video title</div>
           <div className='video-preview-metadata-container'>
             <div className='channel-title'>Channel title</div>
             <div><span>2.1M views • 2 days ago</span></div>
