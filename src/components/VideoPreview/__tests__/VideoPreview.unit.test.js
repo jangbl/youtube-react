@@ -1,12 +1,10 @@
 import React from 'react';
 import {shallow} from 'enzyme';
-import HeaderNav from '../HeaderNav';
+import {VideoPreview} from '../VideoPreview';
 
-describe('HeaderNav', () => {
+describe('VideoPreview', () => {
   test('renders', () => {
-    const wrapper = shallow(
-      <HeaderNav />
-    );
+    const wrapper = shallow(<VideoPreview/>);
     expect(wrapper).toMatchSnapshot();
   });
 });

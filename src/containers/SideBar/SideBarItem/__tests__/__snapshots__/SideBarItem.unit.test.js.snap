@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarItem Render non-highlighted SideBarItem 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+       
+    </span>
+    <span>
+      Trending
+    </span>
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem Renders empty SideBarItem 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        size="large"
+      />
+       
+    </span>
+    <span />
+  </div>
+</MenuItem>
+`;
+
+exports[`SideBarItem Renders highlighted SideBarItem 1`] = `
+<MenuItem
+  className="sidebar-item "
+>
+  <div
+    className="sidebar-item-alignment-container"
+  >
+    <span>
+      <Icon
+        as="i"
+        name="fire"
+        size="large"
+      />
+       
+    </span>
+    <span>
+      Trending
+    </span>
+  </div>
+</MenuItem>
+`;
