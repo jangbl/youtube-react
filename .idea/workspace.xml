@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/SideBarFooter.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/__tests__/SideBarHeader.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/__tests__/Subscriptions.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/SideBar/__tests__/SideBar.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/HeaderNav.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/HeaderNav.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" afterDir="false" />
-    </list>
+    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,7 +28,7 @@
           <entry key="css" value="3" />
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="37" />
+          <entry key="js" value="38" />
           <entry key="json" value="1" />
           <entry key="scss" value="15" />
           <entry key="snap" value="3" />
@@ -51,7 +40,7 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="37" />
+          <entry key="JavaScript" value="38" />
           <entry key="Jest Snapshot" value="3" />
           <entry key="SCSS" value="15" />
         </counts>
@@ -129,8 +118,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="184">
+              <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -159,23 +160,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="10" lean-forward="true" selection-end-line="87" />
+              <caret line="12" column="10" selection-end-line="87" />
             </state>
           </provider>
         </entry>
@@ -308,21 +297,8 @@
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoPreview" type="462c0819:PsiDirectoryNode" />
               <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -385,12 +361,12 @@
       <workItem from="1536644371910" duration="759000" />
       <workItem from="1536730309628" duration="2462000" />
       <workItem from="1536816339500" duration="3160000" />
-      <workItem from="1536998369510" duration="5396000" />
+      <workItem from="1536998369510" duration="6742000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39194000" />
+    <option name="totallyTimeSpent" value="40540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="803" extended-state="6" />
@@ -646,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/__tests__/SideBar.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -676,7 +642,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="10" lean-forward="true" selection-end-line="87" />
+          <caret line="12" column="10" selection-end-line="87" />
         </state>
       </provider>
     </entry>
@@ -684,6 +650,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
