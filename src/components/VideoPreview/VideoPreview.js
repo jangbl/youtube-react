@@ -4,13 +4,8 @@ import './VideoPreview.css';
 
 export class VideoPreview extends React.Component {
   render() {
-    const isVertical = this.isPropertySet('vertical');
-    const isGrid = this.isPropertySet('grid');
-
     return (
-      <div className='video-preview'
-           vertical={isVertical}
-           grid={isGrid}>
+      <div className='video-preview'>
         <div className='image-container'>
           <Image src='http://via.placeholder.com/210x118'/>
           <div className='time-label'>
@@ -27,11 +22,5 @@ export class VideoPreview extends React.Component {
         </div>
       </div>
     );
-  }
-
-  isPropertySet(name) {
-    // React will throw away custom boolean properties
-    // so we have to return a string or null if the attribute is not there
-    return this.props[name] ? 'true' : null;
   }
 }

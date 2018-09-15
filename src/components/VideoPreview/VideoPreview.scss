@@ -3,25 +3,18 @@
 .video-preview {
   display: flex;
 
-  &[vertical] {
-    flex-direction: column;
-    margin-bottom: 24px;
+  flex-direction: column;
+  margin-bottom: 24px;
+  width: 210px;
+
+  img {
     width: 210px;
-
-    img {
-      width: 210px;
-      height: 118px;
-    }
-  }
-
-  &[grid] {
-    margin-right: 4px;
+    height: 118px;
   }
 }
 
 .video-info {
   color: $text-color-dark;
-  max-width: 600px;
 
   .video-preview-metadata-container {
     padding-top: 5px;
@@ -46,21 +39,15 @@
   }
 }
 
-
-
-
-
 .image-container {
   position: relative;
-  flex-grow: 0;
-  flex-shrink: 0;
 
   /* Video duration label at bottom right */
   .time-label {
     position: absolute;
     background: $text-color-dark;
-    bottom: 0px;
-    right: 0px;
+    bottom: 0;
+    right: 0;
     opacity: 0.8;
     border-radius: 2px;
     font-weight: 500;

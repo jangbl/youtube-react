@@ -8,6 +8,6 @@ export class Home extends React.Component {
       <div className='home'>
         <VideoPreview vertical={true} grid={true}/>
       </div>
-    )
+    );
   }
 }
