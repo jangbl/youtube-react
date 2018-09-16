@@ -2,7 +2,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
-  width: 210px; }
+  width: 210px;
+  margin-right: 4px; }
   .video-preview img {
     width: 210px;
     height: 118px; }

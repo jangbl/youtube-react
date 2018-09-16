@@ -1,0 +1,11 @@
+.video-section-container {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; }
+  .video-section-container .video-grid {
+    display: flex;
+    flex-wrap: wrap; }
+
+@media all and (min-width: 1390px) {
+  .video-section {
+    flex-basis: 1284px; } }

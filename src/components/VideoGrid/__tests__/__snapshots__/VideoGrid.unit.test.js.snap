@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoGrid renders with title prop 1`] = `
+<div
+  className="video-section-container"
+>
+  <div
+    className="video-section"
+  >
+    <VideoGridHeader
+      title="Trending"
+    />
+    <div
+      className="video-grid"
+    >
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+    </div>
+    <Divider />
+  </div>
+</div>
+`;
+
+exports[`VideoGrid renders without divider 1`] = `
+<div
+  className="video-section-container"
+>
+  <div
+    className="video-section"
+  >
+    <VideoGridHeader
+      title="Trending"
+    />
+    <div
+      className="video-grid"
+    >
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VideoGrid renders without props 1`] = `
+<div
+  className="video-section-container"
+>
+  <div
+    className="video-section"
+  >
+    <VideoGridHeader
+      title="Trending"
+    />
+    <div
+      className="video-grid"
+    >
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+      <VideoPreview />
+    </div>
+    <Divider />
+  </div>
+</div>
+`;

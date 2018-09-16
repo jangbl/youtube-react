@@ -1,0 +1,11 @@
+@import 'styles/shared.scss';
+
+.app-layout {
+  & > *:not(:first-child) {
+    margin-top: $header-nav-height;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+  }
+}
