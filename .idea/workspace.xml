@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AppLayout/__tests__/AppLayout.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/__tests__/VideoGridHeader.unit.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoGrid/__tests__/VideoGrid.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
-    </list>
+    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -46,6 +30,7 @@
           <entry key="jpg" value="1" />
           <entry key="js" value="49" />
           <entry key="json" value="1" />
+          <entry key="md" value="1" />
           <entry key="scss" value="20" />
           <entry key="snap" value="5" />
         </counts>
@@ -58,6 +43,7 @@
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="49" />
           <entry key="Jest Snapshot" value="5" />
+          <entry key="Markdown" value="1" />
           <entry key="SCSS" value="20" />
         </counts>
       </usages-collector>
@@ -89,10 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/AppLayout/__tests__/AppLayout.unit.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-403">
+            <state relative-caret-position="253">
+              <caret line="11" column="47" selection-end-line="31" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -121,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -129,6 +116,33 @@
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="115">
+                <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+                <folding>
+                  <element signature="e#0#41#0" expanded="true" />
+                  <element signature="e#0#41#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#42#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#35#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="n#!!doc" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#28#0" expanded="true" />
+                  <element signature="e#0#28#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -159,15 +173,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="1" selection-end-line="7" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -271,7 +276,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -403,18 +408,18 @@
       <workItem from="1536730309628" duration="2462000" />
       <workItem from="1536816339500" duration="3160000" />
       <workItem from="1536998369510" duration="16423000" />
-      <workItem from="1537089005986" duration="3237000" />
+      <workItem from="1537089005986" duration="3883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53458000" />
+    <option name="totallyTimeSpent" value="54104000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -428,7 +433,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2586705" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2597968" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -720,15 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/__tests__/AppLayout.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -776,6 +772,41 @@
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="5" column="20" lean-forward="true" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            <folding>
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#42#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#35#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="n#!!doc" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/__tests__/AppLayout.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="47" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
