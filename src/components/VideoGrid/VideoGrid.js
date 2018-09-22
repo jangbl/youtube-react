@@ -7,7 +7,7 @@ import {VideoPreview} from '../VideoPreview/VideoPreview';
 export function VideoGrid(props) {
   const divider = props.hideDivider ? null : <Divider/>;
   return (
-    <div className='video-section'>
+    <React.Fragment>
       <VideoGridHeader title='Trending'/>
       <div className='video-grid'>
         <VideoPreview/>
@@ -24,6 +24,6 @@ export function VideoGrid(props) {
         <VideoPreview/>
       </div>
       {divider}
-    </div>
+    </React.Fragment>
   );
 }

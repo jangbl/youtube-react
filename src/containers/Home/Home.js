@@ -9,8 +9,10 @@ export class Home extends React.Component {
       <React.Fragment>
         <SideBar/>
         <div className='home'>
-          <VideoGrid title='Trending'/>
-          <VideoGrid title='Autos & Vehicles' hideDivider={true}/>
+          <div className="responsive-video-grid-container">
+            <VideoGrid title='Trending'/>
+            <VideoGrid title='Autos & Vehicles' hideDivider={true}/>
+          </div>
         </div>
       </React.Fragment>
     );
