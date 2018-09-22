@@ -2,4 +2,12 @@
 
 .home {
   margin-left: $sidebar-left-width;
+  display: grid;
+  grid: auto / auto;
+  justify-content: center;
+}
+
+.home-grid-item {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
