@@ -1,20 +1,13 @@
 @import 'styles/shared.scss';
 
 .video-preview {
-  display: flex;
-
-  flex-direction: column;
-  margin-bottom: 24px;
-  width: 210px;
-  margin-right: 4px;
-
-  img {
-    width: 210px;
-    height: 118px;
-  }
+  display: grid;
+  grid: 118px auto / 210px;
 }
 
 .video-info {
+  grid-row: 2 / 3;
+  grid-column: 1 / 2;
   color: $text-color-dark;
 
   .video-preview-metadata-container {
@@ -42,6 +35,8 @@
 
 .image-container {
   position: relative;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
 
   /* Video duration label at bottom right */
   .time-label {
