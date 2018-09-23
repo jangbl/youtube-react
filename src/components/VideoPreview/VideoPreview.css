@@ -1,10 +1,22 @@
 .video-preview {
   display: grid;
-  grid: 118px auto / 210px; }
+  grid: 118px auto / 210px;
+  /*
+     override grid settings to make VideoPreview horizontal.
+     Vertical is default
+   */ }
+  .video-preview.horizontal {
+    grid: auto / 210px auto;
+    grid-column-gap: 4px; }
+    .video-preview.horizontal .video-info {
+      grid-row: 1 / 2;
+      grid-column: 2 / 3; }
 
 .video-info {
   grid-row: 2 / 3;
+  /* is overriden when VideoPreview is horizontal */
   grid-column: 1 / 2;
+  /* is overriden when VideoPreview is horizontal */
   color: #111111; }
   .video-info .video-preview-metadata-container {
     padding-top: 5px;

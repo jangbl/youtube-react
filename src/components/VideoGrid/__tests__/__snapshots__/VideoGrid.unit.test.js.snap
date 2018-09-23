@@ -1,93 +1,75 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`VideoGrid renders with title prop 1`] = `
-<div
-  className="video-section-container"
->
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
   <div
-    className="video-section"
+    className="video-grid"
   >
-    <VideoGridHeader
-      title="Trending"
-    />
-    <div
-      className="video-grid"
-    >
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-    </div>
-    <Divider />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
   </div>
-</div>
+  <Divider />
+</Fragment>
 `;
 
 exports[`VideoGrid renders without divider 1`] = `
-<div
-  className="video-section-container"
->
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
   <div
-    className="video-section"
+    className="video-grid"
   >
-    <VideoGridHeader
-      title="Trending"
-    />
-    <div
-      className="video-grid"
-    >
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-    </div>
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
   </div>
-</div>
+</Fragment>
 `;
 
 exports[`VideoGrid renders without props 1`] = `
-<div
-  className="video-section-container"
->
+<Fragment>
+  <VideoGridHeader
+    title="Trending"
+  />
   <div
-    className="video-section"
+    className="video-grid"
   >
-    <VideoGridHeader
-      title="Trending"
-    />
-    <div
-      className="video-grid"
-    >
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-      <VideoPreview />
-    </div>
-    <Divider />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
+    <VideoPreview />
   </div>
-</div>
+  <Divider />
+</Fragment>
 `;

@@ -1,8 +1,54 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`VideoPreview renders 1`] = `
+exports[`VideoPreview renders horizontally 1`] = `
 <div
-  className="video-preview"
+  className="video-preview horizontal"
+>
+  <div
+    className="image-container"
+  >
+    <Image
+      as="img"
+      src="http://via.placeholder.com/210x118"
+      ui={true}
+    />
+    <div
+      className="time-label"
+    >
+      <span>
+        05:22
+      </span>
+    </div>
+  </div>
+  <div
+    className="video-info"
+  >
+    <div
+      className="semi-bold show-max-two-lines"
+    >
+      Video title
+    </div>
+    <div
+      className="video-preview-metadata-container"
+    >
+      <div
+        className="channel-title"
+      >
+        Channel title
+      </div>
+      <div>
+        <span>
+          2.1M views • 2 days ago
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`VideoPreview renders vertically 1`] = `
+<div
+  className="video-preview "
 >
   <div
     className="image-container"
