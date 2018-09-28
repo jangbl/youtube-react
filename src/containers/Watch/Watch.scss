@@ -1,0 +1,25 @@
+.watch-grid {
+  display: grid;
+  grid-template: auto auto auto / auto 402px;
+  padding-top: 24px;
+  column-gap: 24px;
+  padding-left: 24px;
+  padding-right: 24px;
+
+  .video {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  .metadata {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .comments {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+  }
+  .related-videos {
+    grid-column: 2 / 3;
+    grid-row: 1 / span 3;
+  }
+}

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NextUpVideo renders 1`] = `
+<Fragment>
+  <div
+    className="next-up-container"
+  >
+    <h4>
+      Up next
+    </h4>
+    <div
+      className="up-next-toggle"
+    >
+      <span>
+        Autoplay
+      </span>
+      <Checkbox
+        defaultChecked={true}
+        toggle={true}
+        type="checkbox"
+      />
+    </div>
+  </div>
+  <VideoPreview
+    horizontal={true}
+  />
+  <Divider />
+</Fragment>
+`;
