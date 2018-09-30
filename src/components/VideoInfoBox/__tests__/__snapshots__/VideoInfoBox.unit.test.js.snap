@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VideoInfoBox renders collapsed 1`] = `
+<div
+  className="video-info-box"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channel-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="video-info"
+  >
+    <div
+      className="channel-name"
+    >
+      Channel Name
+    </div>
+    <div
+      className="video-publication-date"
+    >
+      Thu 24, 2017
+    </div>
+  </div>
+  <Button
+    as="button"
+    color="youtube"
+    role="button"
+  >
+    91.5K Subscribe
+  </Button>
+  <div
+    className="video-description"
+  >
+    <div
+      className="collapsed"
+    >
+      <p>
+        Paragraph 1
+      </p>
+      <p>
+        Paragraph 2
+      </p>
+      <p>
+        Paragraph 3
+      </p>
+      <p>
+        Paragraph 4
+      </p>
+      <p>
+        Paragraph 5
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+      role="button"
+    >
+      Show More
+    </Button>
+  </div>
+</div>
+`;
+
+exports[`VideoInfoBox renders expanded 1`] = `
+<div
+  className="video-info-box"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="channel-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <div
+    className="video-info"
+  >
+    <div
+      className="channel-name"
+    >
+      Channel Name
+    </div>
+    <div
+      className="video-publication-date"
+    >
+      Thu 24, 2017
+    </div>
+  </div>
+  <Button
+    as="button"
+    color="youtube"
+    role="button"
+  >
+    91.5K Subscribe
+  </Button>
+  <div
+    className="video-description"
+  >
+    <div
+      className="expanded"
+    >
+      <p>
+        Paragraph 1
+      </p>
+      <p>
+        Paragraph 2
+      </p>
+      <p>
+        Paragraph 3
+      </p>
+      <p>
+        Paragraph 4
+      </p>
+      <p>
+        Paragraph 5
+      </p>
+    </div>
+    <Button
+      as="button"
+      compact={true}
+      onClick={[Function]}
+      role="button"
+    >
+      Show Less
+    </Button>
+  </div>
+</div>
+`;

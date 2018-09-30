@@ -1,0 +1,26 @@
+@import 'styles/shared.scss';
+
+.video-metadata {
+    color: #707070;
+    font-size: 16px;
+
+    h3 {
+        font-weight: 400;
+        color: $text-color-dark;
+    }
+
+    .video-stats {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+
+        .video-actions {
+            display: flex;
+            align-items: center;
+            & > *:not(:last-child) {
+                margin-right: 8px;
+            }
+        }
+    }
+}

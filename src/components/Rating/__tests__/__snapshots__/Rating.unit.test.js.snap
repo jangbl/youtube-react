@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating renders 1`] = `
+<div
+  className="rating"
+>
+  <div
+    className="thumbs-up"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline up"
+    />
+    <span>
+      1K
+    </span>
+  </div>
+  <div
+    className="thumbs-down"
+  >
+    <Icon
+      as="i"
+      name="thumbs outline down"
+    />
+    <span>
+      100
+    </span>
+  </div>
+  <Progress
+    className="progress"
+    percent={91}
+    size="tiny"
+  />
+</div>
+`;
