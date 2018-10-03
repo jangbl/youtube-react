@@ -1,6 +1,6 @@
 import React from 'react';
 import './VideoInfoBox.css';
-import {Image, Button} from 'semantic-ui-react';
+import {Image, Button, Divider} from 'semantic-ui-react';
 
 export class VideoInfoBox extends React.Component {
   constructor(props) {
@@ -19,6 +19,7 @@ export class VideoInfoBox extends React.Component {
     }
 
     return (
+      <div>
       <div className='video-info-box'>
         <Image className='channel-image' src='http://via.placeholder.com/48x48' circular/>
         <div className="video-info">
@@ -36,6 +37,8 @@ export class VideoInfoBox extends React.Component {
           </div>
           <Button compact onClick={this.onToggleCollapseButtonClick}>{buttonTitle}</Button>
         </div>
+      </div>
+      <Divider/>
       </div>
     );
   }

@@ -1,0 +1,35 @@
+.comment {
+    display: flex;
+    margin: 8px 0px;
+
+    & > div {
+        /*
+            Prevent child from becoming bigger than parent by setting the min-width to zero
+            The div might overflow if there is an extremely long word without spaces
+            reference: https://bugzilla.mozilla.org/show_bug.cgi?id=1108514
+        */
+        min-width: 0px;
+        span {
+            overflow-wrap: break-word;
+        }
+    }
+
+    .user-image {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+
+    .user-name {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .comment-actions {
+        margin-top: 4px;
+    }
+}
+
+
+

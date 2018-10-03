@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddComment renders correctly 1`] = `
+<div
+  className="add-comment"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="user-image"
+    src="http://via.placeholder.com/48x48"
+    ui={true}
+  />
+  <Form
+    as="form"
+  >
+    <FormTextArea
+      as={[Function]}
+      autoHeight={true}
+      control={[Function]}
+      placeholder="Add a public comment"
+    />
+  </Form>
+</div>
+`;

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders UserComment with props.comment = null 1`] = `<div />`;
+
+exports[`renders UserComment with valid comment 1`] = `
+<div
+  className="comment"
+>
+  <Image
+    as="img"
+    circular={true}
+    className="user-image"
+    src="https://yt3.ggpht.com/-QO3910-PfI0/AAAAAAAAAAI/AAAAAAAAAAA/XiVbzk5N7TI/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+    ui={true}
+  />
+  <div>
+    <div
+      className="user-name"
+    >
+      Peter Unlustig
+    </div>
+    <span>
+      WTF is this setup … what does he need 20 channels for?
+    </span>
+    <div
+      className="comment-actions"
+    >
+      <Rating
+        likeCount={0}
+      />
+       
+      <Button
+        as="button"
+        compact={true}
+        role="button"
+        size="mini"
+      >
+        REPLY
+      </Button>
+    </div>
+  </div>
+</div>
+`;
