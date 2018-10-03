@@ -1,0 +1,22 @@
+@import 'styles/shared.scss';
+.comment {
+    display: flex;
+    margin: 8px 0;
+
+    .user-image {
+        width: $avatar-diameter;
+        height: $avatar-diameter;
+        margin-right: $avatar-margin;
+    }
+
+    .user-name {
+        font-weight: 600;
+        margin-bottom: 4px;
+    }
+    .comment-actions {
+        margin-top: 4px;
+        button {
+            margin-left: 8px;
+        }
+    }
+}

@@ -7,8 +7,8 @@ export function Video(props) {
   if(!props.id) {
     return null;
   }
-  const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=1`;
-  // const embedUrl = `${BASE_EMBED_URL}${props.id}`;
+  //const embedUrl = `${BASE_EMBED_URL}${props.id}?autoplay=1`;
+  const embedUrl = `${BASE_EMBED_URL}${props.id}`;
   return (
     <div className='video-container'>
       <div className="video">

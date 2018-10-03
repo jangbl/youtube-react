@@ -1,6 +1,6 @@
 .rating {
-    display: grid;
-    grid: auto auto / repeat(2, 1fr) ;
+    display: inline-grid;
+    grid: auto auto / max-content max-content ;
     column-gap: 16px;
     grid-row-gap: 4px;
     .thumbs-up {

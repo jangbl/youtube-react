@@ -1,17 +1,17 @@
 import React from 'react';
 import {CommentsHeader} from "./CommentsHeader/CommentsHeader";
 import {AddComment} from "./AddComment/AddComment";
-import {UserComment} from "./UserComment/UserComment";
+import {Comment} from "./Comment/Comment";
 
 export class Comments extends React.Component {
   render() {
-    return(
+    return (
       <div>
         <CommentsHeader amountComments={this.props.amountComments}/>
-         <AddComment key='add-comment'/>
-        {/* <UserComment/>
-        <UserComment/>
-        <UserComment/> */}
+        <AddComment key='add-comment'/>
+        <Comment/>
+        <Comment/>
+        <Comment/>
       </div>
     );
   }

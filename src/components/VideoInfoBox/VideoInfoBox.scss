@@ -1,6 +1,6 @@
 .video-info-box {
   display: grid;
-  grid: auto auto / 56px auto 150px;
+  grid: auto auto / 56px auto max-content;
   align-items: center;
   grid-row-gap: 16px;
 
