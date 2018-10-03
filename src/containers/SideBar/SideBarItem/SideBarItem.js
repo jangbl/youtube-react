@@ -1,6 +1,6 @@
 import React from 'react';
 import {Icon, Menu} from "semantic-ui-react";
-import './SideBarItem.css';
+import './SideBarItem.scss';
 
 export function SideBarItem(props) {
   // React will ignore custom boolean attributes, therefore we pass a string

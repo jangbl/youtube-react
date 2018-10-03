@@ -1,5 +1,5 @@
 import React from 'react';
-import './VideoGridHeader.css';
+import './VideoGridHeader.scss';
 
 export function VideoGridHeader(props) {
   return (

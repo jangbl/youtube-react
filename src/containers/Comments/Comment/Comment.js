@@ -1,5 +1,5 @@
 import React from 'react';
-import './Comment.css';
+import './Comment.scss';
 import {Button, Image} from "semantic-ui-react";
 import {Rating} from '../../../components/Rating/Rating';
 

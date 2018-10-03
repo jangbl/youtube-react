@@ -1,5 +1,5 @@
 import React from 'react';
-import './SideBarFooter.css'
+import './SideBarFooter.scss'
 
 export function SideBarFooter() {
   return (

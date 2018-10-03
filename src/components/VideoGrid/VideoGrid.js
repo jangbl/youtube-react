@@ -1,5 +1,5 @@
 import React from 'react';
-import './VideoGrid.css';
+import './VideoGrid.scss';
 import {VideoGridHeader} from "./VideoGridHeader/VideoGridHeader";
 import {Divider} from "semantic-ui-react";
 import {VideoPreview} from '../VideoPreview/VideoPreview';

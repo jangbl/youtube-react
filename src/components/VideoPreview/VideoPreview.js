@@ -1,6 +1,6 @@
 import React from 'react';
 import {Image} from 'semantic-ui-react';
-import './VideoPreview.css';
+import './VideoPreview.scss';
 
 export class VideoPreview extends React.Component {
   render() {

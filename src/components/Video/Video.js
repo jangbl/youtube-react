@@ -1,5 +1,5 @@
 import React from 'react';
-import './Video.css';
+import './Video.scss';
 
 const BASE_EMBED_URL = 'https://www.youtube.com/embed/';
 

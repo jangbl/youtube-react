@@ -1,5 +1,5 @@
 import React from 'react';
-import './Watch.css';
+import './Watch.scss';
 import {RelatedVideos} from '../../components/RelatedVideos/RelatedVideos';
 import {Video} from '../../components/Video/Video';
 import {VideoMetadata} from '../../components/VideoMetadata/VideoMetadata';

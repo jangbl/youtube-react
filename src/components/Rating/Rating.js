@@ -1,5 +1,5 @@
 import React from 'react';
-import './Rating.css';
+import './Rating.scss';
 import {Icon, Progress} from "semantic-ui-react";
 
 export function Rating(props) {

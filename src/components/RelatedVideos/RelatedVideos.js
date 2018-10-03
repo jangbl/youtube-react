@@ -1,6 +1,6 @@
 import React from 'react';
 import {VideoPreview} from '../VideoPreview/VideoPreview';
-import './RelatedVideos.css';
+import './RelatedVideos.scss';
 import {NextUpVideo} from './NextUpVideo/NextUpVideo';
 
 export function RelatedVideos(props) {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './NextUpVideo.css';
+import './NextUpVideo.scss';
 import {Checkbox, Divider} from "semantic-ui-react";
 import {VideoPreview} from '../../VideoPreview/VideoPreview';
 

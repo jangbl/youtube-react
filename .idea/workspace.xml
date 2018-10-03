@@ -3,21 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Video/Video.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/Video.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/AddComment.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/AddComment.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/CommentsHeader.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/CommentsHeader.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/WatchContent.unit.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/UserComment/UserComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/UserComment/UserComment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/UserComment/__tests__/UserComment.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/Comment.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/UserComment/__tests__/WatchContent.unit.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/UserComment/__tests__/__snapshots__/UserComment.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/__snapshots__/UserComment.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/__tests__/Comments.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/__tests__/Comments.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/Home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/SideBarHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/SideBarHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Watch/Watch.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/Watch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/shared.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/shared.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_shared.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -48,10 +66,10 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="115" />
-          <entry key="json" value="3" />
+          <entry key="js" value="140" />
+          <entry key="json" value="4" />
           <entry key="md" value="1" />
-          <entry key="scss" value="53" />
+          <entry key="scss" value="65" />
           <entry key="snap" value="12" />
         </counts>
       </usages-collector>
@@ -60,26 +78,28 @@
           <entry key="CSS" value="4" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="115" />
+          <entry key="JSON" value="4" />
+          <entry key="JavaScript" value="140" />
           <entry key="Jest Snapshot" value="12" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="53" />
+          <entry key="SCSS" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="js" value="7033" />
-          <entry key="scss" value="3241" />
+          <entry key="js" value="7053" />
+          <entry key="json" value="5" />
+          <entry key="scss" value="3261" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="7033" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="7053" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="3241" />
+          <entry key="SCSS" value="3261" />
         </counts>
       </usages-collector>
     </session>
@@ -87,10 +107,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
+        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state>
+              <caret selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="92">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -99,13 +137,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="161">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -113,89 +166,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            <state relative-caret-position="92">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/AddComment.unit.test.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="3" lean-forward="true" selection-end-line="11" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="23">
+              <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comments.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="10" selection-end-line="14" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="92">
+              <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/CommentsHeader.unit.test.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBar.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="18" column="3" lean-forward="true" selection-end-line="18" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="1" selection-end-line="5" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/__tests__/Comments.unit.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" lean-forward="true" selection-end-line="20" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/Comment.unit.test.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" lean-forward="true" selection-end-line="10" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="69">
+              <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -228,7 +227,12 @@
       <find>expanded</find>
       <find>48</find>
       <find>@import</find>
+      <find>import '</find>
+      <find>import</find>
+      <find>import.*?[&quot;']</find>
       <find>UserComment</find>
+      <find>.css</find>
+      <find>shared.</find>
     </findStrings>
     <replaceStrings>
       <replace>Comment</replace>
@@ -240,57 +244,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/__tests__/Subscriptions.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoGrid/__tests__/VideoGrid.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/__tests__/VideoGridHeader.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" />
-        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss" />
-        <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" />
-        <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js" />
         <option value="$PROJECT_DIR$/src/App.test.js" />
         <option value="$PROJECT_DIR$/src/__tests__/App.test.js" />
         <option value="$PROJECT_DIR$/src/__tests__/App.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js" />
-        <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" />
         <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss" />
         <option value="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.scss" />
         <option value="$PROJECT_DIR$/src/components/RelatedVideos/__tests__/RelatedVideos.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/__tests__/NextUpVideo.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/Video/Video.scss" />
         <option value="$PROJECT_DIR$/src/containers/Watch/__tests__/Watch.unit.test.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss" />
         <option value="$PROJECT_DIR$/src/components/VideoMetadata/__tests__/VideoMetadata.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/Rating/__tests__/Rating.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/VideoInfoBox.unit.test.js" />
         <option value="$PROJECT_DIR$/src/containers/Watch/Watch.scss" />
-        <option value="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" />
         <option value="$PROJECT_DIR$/src/styles/shared.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss" />
-        <option value="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js" />
-        <option value="$PROJECT_DIR$/src/containers/Watch/Watch.js" />
         <option value="$PROJECT_DIR$/src/containers/Comments/UserComment/UserComment.js" />
         <option value="$PROJECT_DIR$/src/containers/Comments/Comments.js" />
         <option value="$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/Comment.unit.test.js" />
         <option value="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/AddComment.unit.test.js" />
         <option value="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.scss" />
         <option value="$PROJECT_DIR$/src/components/Rating/Rating.scss" />
-        <option value="$PROJECT_DIR$/src/components/Video/Video.js" />
-        <option value="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js" />
-        <option value="$PROJECT_DIR$/src/components/Rating/Rating.js" />
-        <option value="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" />
         <option value="$PROJECT_DIR$/src/containers/Comments/__tests__/Comments.unit.test.js" />
         <option value="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/CommentsHeader.unit.test.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" />
+        <option value="$PROJECT_DIR$/src/components/Rating/Rating.js" />
+        <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" />
+        <option value="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js" />
+        <option value="$PROJECT_DIR$/src/components/Video/Video.js" />
+        <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js" />
+        <option value="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" />
+        <option value="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js" />
+        <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" />
+        <option value="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js" />
+        <option value="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js" />
+        <option value="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js" />
+        <option value="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/SideBarHeader.js" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBar.js" />
+        <option value="$PROJECT_DIR$/src/containers/Watch/Watch.js" />
+        <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss" />
+        <option value="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss" />
+        <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" />
+        <option value="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Home/Home.scss" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBar.scss" />
       </list>
     </option>
   </component>
@@ -339,12 +343,6 @@
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,7 +363,21 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="RelatedVideos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="Video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -407,24 +419,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Comments" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Comments" type="462c0819:PsiDirectoryNode" />
               <item name="AddComment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Comments" type="462c0819:PsiDirectoryNode" />
-              <item name="AddComment" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -439,26 +434,45 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Comments" type="462c0819:PsiDirectoryNode" />
-              <item name="Comment" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="HeaderNav" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Comments" type="462c0819:PsiDirectoryNode" />
-              <item name="CommentsHeader" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Comments" type="462c0819:PsiDirectoryNode" />
-              <item name="CommentsHeader" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBarHeader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBarItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="Subscriptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -478,7 +492,7 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="shared.scss" type="620a8d5e:NestingTreeNode" />
+              <item name="_shared.scss" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -493,6 +507,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
   </component>
   <component name="RecentsManager">
@@ -562,12 +577,12 @@
       <workItem from="1538297368450" duration="6180000" />
       <workItem from="1538416796829" duration="1262000" />
       <workItem from="1538458399111" duration="1237000" />
-      <workItem from="1538555718793" duration="5081000" />
+      <workItem from="1538555718793" duration="6453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114545000" />
+    <option name="totallyTimeSpent" value="115917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -579,7 +594,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32946298" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32946298" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,7 +602,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.34687954" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34687954" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -601,91 +616,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/__tests__/VideoPreview.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/__tests__/__snapshots__/NextUpVideo.unit.test.js.snap" />
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/__tests__/WatchContent.unit.test.js" />
-    <entry file="file://$PROJECT_DIR$/src/__tests__/App.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/__tests__/NextUpVideo.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="3" lean-forward="true" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/__tests__/RelatedVideos.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Video/Video.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/VideoMetadata/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" />
-    <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" />
-    <entry file="file://$PROJECT_DIR$/src/components/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" />
     <entry file="file://$PROJECT_DIR$/src/containers/Watch/__tests__/Watch.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -721,20 +651,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/VideoInfoBox.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -760,120 +676,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="1" selection-end-line="13" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/styles/shared.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Video/Video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="12" lean-forward="true" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -884,20 +690,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="10" selection-end-line="14" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/Comment.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" lean-forward="true" selection-end-line="10" />
+          <caret line="10" selection-end-line="10" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -907,17 +703,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/AddComment.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
-          <caret line="11" column="3" lean-forward="true" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comments.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <caret line="11" column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -927,20 +713,276 @@
     <entry file="file://$PROJECT_DIR$/src/containers/Comments/__tests__/Comments.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="460">
-          <caret line="20" lean-forward="true" selection-end-line="20" />
+          <caret line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="18" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Video/Video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGridHeader/VideoGridHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/CommentsHeader.unit.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="3" lean-forward="true" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="361">
+          <caret line="18" column="3" selection-end-line="18" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/CommentsHeader/CommentsHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comments.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/SideBarHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscriptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/_shared.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="19" lean-forward="true" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/AddComment/AddComment.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/Home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBar.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="25" lean-forward="true" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
         </state>
       </provider>
     </entry>
