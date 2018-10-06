@@ -3,15 +3,8 @@
     grid: auto auto / max-content max-content ;
     column-gap: 16px;
     grid-row-gap: 4px;
-    .thumbs-up {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-    }
-    .thumbs-down {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-    }
-    .progress {
+
+    .progress.ui.progress:last-child {
         grid-column: 1 / span 2;
         grid-row: 2 / 3;
 
