@@ -21,10 +21,9 @@ describe('api reducer', () => {
   });
 
   test('test api reducer for idempotence with YOUTUBE_LIBRARY_LOADED action and library already loaded', () => {
-    const startState = {...initialState};
-    const expectedEndState = {
+    const startState = {
       libraryLoaded: true,
     };
-    expect(apiReducer(startState, {type: YOUTUBE_LIBRARY_LOADED})).toEqual(expectedEndState);
+    expect(apiReducer(startState, {type: YOUTUBE_LIBRARY_LOADED})).toEqual(startState);
   });
 });
