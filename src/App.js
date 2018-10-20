@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Home} from './containers/Home/Home';
+import Home from './containers/Home/Home';
 import {AppLayout} from './components/AppLayout/AppLayout';
 import {Route, Switch} from 'react-router-dom';
 import {Watch} from './containers/Watch/Watch';
@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
 import {youtubeLibraryLoaded} from './store/actions/api';
 
-const API_KEY = 'put-your-api-key-in-here';
+const API_KEY = 'AIzaSyCmmsyUbewrHUo0-8cGpV5Y-WVUqlNQ2Dc';
 
 class App extends Component {
   render() {
