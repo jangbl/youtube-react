@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/responses/MOST_POPULAR_SUCCESS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/states/MOST_POPULAR_SUCCESS.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/__tests__/api.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/api.unit.test.js" afterDir="false" />
-    </list>
+    <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -159,8 +153,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/store/reducers/__tests__/states/MOST_POPULAR_SUCCESS.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="24" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+            <state relative-caret-position="207">
+              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -510,15 +504,16 @@
       <workItem from="1539625682459" duration="2153000" />
       <workItem from="1539928320623" duration="1692000" />
       <workItem from="1539969457837" duration="574000" />
-      <workItem from="1540031622525" duration="2884000" />
+      <workItem from="1540031622525" duration="3514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137076000" />
+    <option name="totallyTimeSpent" value="137706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -905,8 +900,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/__tests__/states/MOST_POPULAR_SUCCESS.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="24" lean-forward="true" selection-end-line="61" selection-end-column="1" />
+        <state relative-caret-position="207">
+          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
