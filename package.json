@@ -12,6 +12,7 @@
     "react-test-renderer": "^16.5.0",
     "redux": "^4.0.0",
     "redux-saga": "^0.16.0",
+    "reselect": "^4.0.0",
     "semantic-ui-css": "^2.3.3",
     "semantic-ui-react": "^0.82.3"
   },

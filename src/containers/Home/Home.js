@@ -3,7 +3,7 @@ import {connect} from "react-redux";
 import * as videoActions from "../../store/actions/video";
 import './Home.scss';
 import {SideBar} from '../SideBar/SideBar';
-import {HomeContent} from './HomeContent/HomeContent';
+import HomeContent from './HomeContent/HomeContent';
 import {bindActionCreators} from 'redux';
 import {getYoutubeLibraryLoaded} from '../../store/reducers/api';
 
