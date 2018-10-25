@@ -1,15 +1,18 @@
-import {MOST_POPULAR} from '../actions/video';
+import {MOST_POPULAR, VIDEO_CATEGORIES} from '../actions/video';
 import {SUCCESS} from '../actions';
 import {createSelector} from 'reselect';
 
 const initialState = {
   byId: {},
   mostPopular: {},
+  categories: {},
 };
 export default function videos(state = initialState, action) {
   switch (action.type) {
     case MOST_POPULAR[SUCCESS]:
       return reduceFetchMostPopularVideos(action.response, state);
+    case VIDEO_CATEGORIES[SUCCESS]:
+      return reduceFetchVideoCategories(action.response, state);
     default:
       return state;
   }
@@ -39,6 +42,17 @@ function reduceFetchMostPopularVideos(response, prevState) {
   };
 }
 
+function reduceFetchVideoCategories(response, prevState) {
+  const categoryMapping = response.items.reduce((accumulator, category) => {
+    accumulator[category.id] = category.snippet.title;
+    return accumulator;
+  }, {});
+  return {
+    ...prevState,
+    categories: categoryMapping,
+  };
+}
+
 /*
 *   Selectors
 * */
@@ -53,3 +67,8 @@ export const getMostPopularVideos = createSelector(
     return mostPopular.items.map(videoId => videosById[videoId]);
   }
 );
+export const getVideoCategories = (state) => state.videos.categories;
+/*export const getVideoCategories = createSelector(
+  state => state.videos.categories,
+  (categories) => categories
+);*/
