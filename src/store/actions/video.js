@@ -13,3 +13,10 @@ export const mostPopular = {
   success: (response) => createAction(MOST_POPULAR[SUCCESS], {response}),
   failure: (response) => createAction(MOST_POPULAR[FAILURE], {response}),
 };
+
+export const MOST_POPULAR_BY_CATEGORY = createRequestTypes('MOST_POPULAR_BY_CATEGORY');
+export const mostPopularByCategory = {
+  request: (categories) => createAction(MOST_POPULAR_BY_CATEGORY[REQUEST], {categories}),
+  success: (response, categories) => createAction(MOST_POPULAR_BY_CATEGORY[SUCCESS], {response, categories}),
+  failure: (response) => createAction(MOST_POPULAR_BY_CATEGORY[FAILURE], response),
+};
