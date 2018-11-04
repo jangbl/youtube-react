@@ -108,6 +108,24 @@ function groupVideosByIdAndCategory(response, categoryId) {
   }, {byId: {}, byCategory: {}});
 }
 
+function reduceWatchDetails(responses, prevState) {
+  const videoResponses = responses.filter(response => response.result.kind === VIDEO_LIST_RESPONSE);
+  const byIdEntries = videoResponses.reduce((accumulator, response) => {
+    response.result.items.forEach(video => {
+      accumulator[video.id] = video;
+    });
+    return accumulator;
+  }, {});
+
+  return {
+    ...prevState,
+    byId: {
+      ...prevState.byId,
+      ...byIdEntries,
+    },
+  };
+}
+
 
 /*
 *   Selectors
@@ -158,26 +176,6 @@ export const videosByCategoryLoaded = createSelector(
   }
 );
 
-function reduceWatchDetails(responses, prevState) {
-  const videoResponses = responses.filter(response => response.result.kind === VIDEO_LIST_RESPONSE);
-  const byIdEntries = videoResponses.reduce((accumulator, response) => {
-    response.result.items.forEach(video => {
-      accumulator[video.id] = video;
-    });
-    return accumulator;
-  }, {});
-
-  return {
-    ...prevState,
-    byId: {
-      ...prevState.byId,
-      ...byIdEntries,
-    },
-  };
-}
-
-
-/*export const getVideoCategories = createSelector(
-  state => state.videos.categories,
-  (categories) => categories
-);*/
+export const getVideoById = (state, videoId) => {
+  return state.videos.byId[videoId];
+};
