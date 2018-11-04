@@ -1,6 +1,8 @@
 import {MOST_POPULAR, MOST_POPULAR_BY_CATEGORY, VIDEO_CATEGORIES} from '../actions/video';
 import {SUCCESS} from '../actions';
 import {createSelector} from 'reselect';
+import {VIDEO_LIST_RESPONSE} from '../api/youtube-api-response-types';
+import {WATCH_DETAILS} from '../actions/watch';
 
 const initialState = {
   byId: {},
@@ -16,6 +18,9 @@ export default function videos(state = initialState, action) {
       return reduceFetchVideoCategories(action.response, state);
     case MOST_POPULAR_BY_CATEGORY[SUCCESS]:
       return reduceFetchMostPopularVideosByCategory(action.response, action.categories, state);
+    case WATCH_DETAILS[SUCCESS]:
+      console.log('response = ' + JSON.stringify(action.response));
+      return reduceWatchDetails(action.response, state);
     default:
       return state;
   }
@@ -79,11 +84,12 @@ function reduceFetchMostPopularVideosByCategory(responses, categories, prevState
     byCategory: {...prevState.byCategory, ...byCategoryMap},
   };
 }
+
 function groupVideosByIdAndCategory(response, categoryId) {
   const videos = response.items;
   return videos.reduce((accumulator, video) => {
     accumulator.byId[video.id] = video;
-    if(!accumulator.byCategory[categoryId]) {
+    if (!accumulator.byCategory[categoryId]) {
       accumulator.byCategory[categoryId] = {
         totalResults: response.pageInfo.totalResults,
         nextPageToken: response.nextPageToken,
@@ -151,6 +157,26 @@ export const videosByCategoryLoaded = createSelector(
     return Object.keys(videosByCategory || {}).length;
   }
 );
+
+function reduceWatchDetails(responses, prevState) {
+  const videoResponses = responses.filter(response => response.result.kind === VIDEO_LIST_RESPONSE);
+  const byIdEntries = videoResponses.reduce((accumulator, response) => {
+    response.result.items.forEach(video => {
+      accumulator[video.id] = video;
+    });
+    return accumulator;
+  }, {});
+
+  return {
+    ...prevState,
+    byId: {
+      ...prevState.byId,
+      ...byIdEntries,
+    },
+  };
+}
+
+
 /*export const getVideoCategories = createSelector(
   state => state.videos.categories,
   (categories) => categories
