@@ -1,6 +1,6 @@
 .watch-grid {
   display: grid;
-  grid-template: auto auto auto / auto 402px;
+  grid-template: auto auto auto auto / auto 402px;
   padding-top: 24px;
   column-gap: 24px;
   grid-row-gap: 8px;
@@ -21,6 +21,14 @@
   }
   .related-videos {
     grid-column: 2 / 3;
-    grid-row: 1 / span 3;
+    grid-row: 1 / span 4;
+  }
+  .video-metadata {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  }
+  .video-info-box {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
   }
 }

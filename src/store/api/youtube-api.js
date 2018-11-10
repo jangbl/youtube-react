@@ -35,6 +35,17 @@ export function buildVideoDetailRequest(videoId) {
     }, null);
 }
 
+export function buildRelatedVideosRequest(videoId, amountRelatedVideos = 12) {
+  return buildApiRequest('GET',
+    '/youtube/v3/search',
+    {
+      part: 'snippet',
+      type: 'video',
+      maxResults: amountRelatedVideos,
+      relatedToVideoId: videoId,
+    }, null);
+}
+
 /*
   Util - Youtube API boilerplate code
  */

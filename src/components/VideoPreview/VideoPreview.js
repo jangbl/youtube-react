@@ -14,7 +14,8 @@ const timeAgo = new TimeAgo('en-US');
 export class VideoPreview extends React.Component {
   render() {
     const {video} = this.props;
-    if (!video) {
+    if (!video || !video.statistics) {
+      console.log('this video has no statistics', video);
       return <div/>;
     }
     const videoDuration = getVideoDurationString(video.contentDetails.duration);
