@@ -7,6 +7,7 @@
         width: $avatar-diameter;
         height: $avatar-diameter;
         margin-right: $avatar-margin;
+        flex-shrink: 0;
     }
 
     .user-name {

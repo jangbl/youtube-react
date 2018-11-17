@@ -3,6 +3,7 @@ import {SUCCESS} from '../actions';
 import {createSelector} from 'reselect';
 import {SEARCH_LIST_RESPONSE, VIDEO_LIST_RESPONSE} from '../api/youtube-api-response-types';
 import {VIDEO_DETAILS, WATCH_DETAILS} from '../actions/watch';
+import {getSearchParam} from '../../services/url';
 
 const initialState = {
   byId: {},
@@ -252,3 +253,22 @@ export const getRelatedVideos = createSelector(
     }
     return [];
   });
+
+export const getChannelId = (state, location, name) => {
+  const videoId = getSearchParam(location, name);
+  const video = state.videos.byId[videoId];
+  if (video) {
+    return video.snippet.channelId;
+  }
+  return null;
+};
+
+export const getAmountComments = createSelector(
+  getVideoById,
+  (video) => {
+    if (video) {
+      return video.statistics.commentCount;
+    }
+    return 0;
+  });
+

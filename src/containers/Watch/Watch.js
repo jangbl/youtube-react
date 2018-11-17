@@ -5,13 +5,18 @@ import {withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {getYoutubeLibraryLoaded} from '../../store/reducers/api';
 import WatchContent from './WatchContent/WatchContent';
+import {getSearchParam} from '../../services/url';
+import {getChannelId} from '../../store/reducers/videos';
+import {getCommentNextPageToken} from '../../store/reducers/comments';
+import * as commentActions from '../../store/actions/comment';
 
 
 export class Watch extends React.Component {
   render() {
     const videoId = this.getVideoId();
     return (
-      <WatchContent videoId={videoId}/>
+      <WatchContent videoId={videoId} channelId={this.props.channelId} bottomReachedCallback={this.fetchMoreComments}
+                    nextPageToken={this.props.nextPageToken}/>
     );
   }
 
@@ -28,12 +33,7 @@ export class Watch extends React.Component {
   }
 
   getVideoId() {
-    if (!this.props.location) {
-      return null;
-    }
-
-    const searchParams = new URLSearchParams(this.props.location.search);
-    return searchParams.get('v');
+    return getSearchParam(this.props.location, 'v');
   }
 
   fetchWatchContent() {
@@ -43,17 +43,26 @@ export class Watch extends React.Component {
     }
     this.props.fetchWatchDetails(videoId, this.props.channelId);
   }
+
+  fetchMoreComments = () => {
+    if (this.props.nextPageToken) {
+      this.props.fetchCommentThread(this.getVideoId(), this.props.nextPageToken);
+    }
+  };
 }
 
-function mapStateToProps(state) {
+function mapStateToProps(state, props) {
   return {
     youtubeLibraryLoaded: getYoutubeLibraryLoaded(state),
+    channelId: getChannelId(state, props.location, 'v'),
+    nextPageToken: getCommentNextPageToken(state, props.location),
   };
 }
 
 function mapDispatchToProps(dispatch) {
   const fetchWatchDetails = watchActions.details.request;
-  return bindActionCreators({fetchWatchDetails}, dispatch);
+  const fetchCommentThread = commentActions.thread.request;
+  return bindActionCreators({fetchWatchDetails, fetchCommentThread}, dispatch);
 }
 
 export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Watch));

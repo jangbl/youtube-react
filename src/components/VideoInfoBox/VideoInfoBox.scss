@@ -1,3 +1,5 @@
+@import '../../styles/shared.scss';
+
 .video-info-box {
   display: grid;
   grid: auto auto / 56px auto max-content;
@@ -7,6 +9,8 @@
   .channel-image {
     grid-row: 1 / 2;
     grid-column: 1 / 2;
+    width: $avatar-diameter;
+    height: $avatar-diameter;
   }
 
   .video-info {

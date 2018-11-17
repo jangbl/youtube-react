@@ -3,6 +3,7 @@ import './VideoInfoBox.scss';
 import {Image, Button, Divider} from 'semantic-ui-react';
 import Linkify from 'react-linkify';
 import {getPublishedAtDateString} from '../../services/date/date-format';
+import {getShortNumberString} from '../../services/number/number-format';
 
 export class VideoInfoBox extends React.Component {
   constructor(props) {
@@ -13,7 +14,7 @@ export class VideoInfoBox extends React.Component {
   }
 
   render() {
-    if (!this.props.video) {
+    if (!this.props.video || !this.props.channel) {
       return <div/>;
     }
 
@@ -21,15 +22,20 @@ export class VideoInfoBox extends React.Component {
     const {descriptionTextClass, buttonTitle} = this.getConfig();
     const publishedAtString = getPublishedAtDateString(this.props.video.snippet.publishedAt);
 
+    const {channel} = this.props;
+    const buttonText = this.getSubscriberButtonText();
+    const channelThumbnail = channel.snippet.thumbnails.medium.url;
+    const channelTitle = channel.snippet.title;
+
     return (
       <div>
         <div className='video-info-box'>
-          <Image className='channel-image' src='http://via.placeholder.com/48x48' circular/>
+          <Image className='channel-image' src={channelThumbnail} circular/>
           <div className="video-info">
-            <div className='channel-name'>Channel Name</div>
+            <div className='channel-name'>{channelTitle}</div>
             <div className='video-publication-date'>{publishedAtString}</div>
           </div>
-          <Button color='youtube'>91.5K Subscribe</Button>
+          <Button color='youtube'>{buttonText}</Button>
           <div className="video-description">
             <div className={descriptionTextClass}>
               {descriptionParagraphs}
@@ -56,6 +62,13 @@ export class VideoInfoBox extends React.Component {
       return null;
     }
     return videoDescription.split('\n').map((paragraph, index) => <p key={index}><Linkify>{paragraph}</Linkify></p>);
+  }
+
+  getSubscriberButtonText() {
+    const {channel} = this.props;
+    const parsedSubscriberCount = Number(channel.statistics.subscriberCount);
+    const subscriberCount = getShortNumberString(parsedSubscriberCount);
+    return `Subscribe ${subscriberCount}`;
   }
 
   getConfig() {

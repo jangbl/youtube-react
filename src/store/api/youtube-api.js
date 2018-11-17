@@ -35,6 +35,26 @@ export function buildVideoDetailRequest(videoId) {
     }, null);
 }
 
+export function buildChannelRequest(channelId) {
+  return buildApiRequest('GET',
+    '/youtube/v3/channels',
+    {
+      part: 'snippet,statistics',
+      id: channelId,
+      fields: 'kind,items(id,snippet(description,thumbnails/medium,title),statistics/subscriberCount)'
+    }, null);
+}
+
+export function buildCommentThreadRequest(videoId, nextPageToken) {
+  return buildApiRequest('GET',
+    '/youtube/v3/commentThreads',
+    {
+      part: 'id,snippet',
+      pageToken: nextPageToken,
+      videoId,
+    }, null);
+}
+
 export function buildRelatedVideosRequest(videoId, amountRelatedVideos = 12) {
   return buildApiRequest('GET',
     '/youtube/v3/search',
