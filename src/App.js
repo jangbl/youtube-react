@@ -14,7 +14,7 @@ class App extends Component {
     return (
       <AppLayout>
         <Switch>
-          <Route path="/watch" component={Watch}/>
+          <Route path="/watch" render={() => <Watch key={this.props.location.key}/>}/>
           <Route path="/" component={Home}/>
         </Switch>
       </AppLayout>
