@@ -190,10 +190,10 @@ function reduceRelatedVideos(responses, videoIds) {
 /*
 *   Selectors
 * */
-
+const getMostPopular = (state) => state.videos.mostPopular;
 export const getMostPopularVideos = createSelector(
   (state) => state.videos.byId,
-  (state) => state.videos.mostPopular,
+  getMostPopular,
   (videosById, mostPopular) => {
     if (!mostPopular || !mostPopular.items) {
       return [];
@@ -271,4 +271,19 @@ export const getAmountComments = createSelector(
     }
     return 0;
   });
+
+export const allMostPopularVideosLoaded = createSelector(
+  [getMostPopular],
+  (mostPopular) => {
+    const amountFetchedItems = mostPopular.items ? mostPopular.items.length : 0;
+    return amountFetchedItems === mostPopular.totalResults;
+  }
+);
+
+export const getMostPopularVideosNextPageToken = createSelector(
+  [getMostPopular],
+  (mostPopular) => {
+    return mostPopular.nextPageToken;
+  }
+);
 
