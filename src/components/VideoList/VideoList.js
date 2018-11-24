@@ -23,8 +23,8 @@ export class VideoList extends React.Component {
     if(!this.props.videos || !this.props.videos.length) {
       return null;
     }
-    // const firstVideo = this.props.videos[0];
-    // if (!firstVideo.snippet.description) {return null}
+    const firstVideo = this.props.videos[0];
+    if (!firstVideo.snippet.description) {return null}
 
     return this.props.videos.map(video => (
       <VideoPreview horizontal={true} expanded={true} video={video} key={video.id} pathname={'/watch'}

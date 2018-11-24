@@ -3,21 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "javascript-time-ago": "^1.0.31",
-    "node-sass": "^4.9.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
+    "javascript-time-ago": "^1.0.32",
+    "node-sass": "^4.10.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-linkify": "^0.2.2",
-    "react-redux": "^5.0.7",
+    "react-redux": "^5.1.1",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.3",
-    "react-test-renderer": "^16.5.0",
-    "react-waypoint": "^8.0.3",
-    "redux": "^4.0.0",
-    "redux-saga": "^0.16.0",
+    "react-scripts": "2.1.1",
+    "react-test-renderer": "^16.6.3",
+    "react-waypoint": "^8.1.0",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2",
     "reselect": "^4.0.0",
-    "semantic-ui-css": "^2.3.3",
-    "semantic-ui-react": "^0.82.3"
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^0.83.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "enzyme": "^3.6.0",
-    "enzyme-adapter-react-16": "^1.5.0",
+    "enzyme-adapter-react-16": "^1.7.0",
     "enzyme-to-json": "^3.3.4"
   },
   "browserslist": [
