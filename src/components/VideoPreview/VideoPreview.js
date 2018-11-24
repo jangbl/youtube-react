@@ -15,10 +15,11 @@ export class VideoPreview extends React.Component {
   render() {
     const {video} = this.props;
     if (!video) {
-      console.log('this video has no statistics', video);
       return <div/>;
     }
-    const videoDuration = getVideoDurationString(video.contentDetails.duration);
+
+    const duration = video.contentDetails ? video.contentDetails.duration : null;
+    const videoDuration = getVideoDurationString(duration);
     const viewAndTimeString = VideoPreview.getFormattedViewAndTime(video);
     const horizontal = this.props.horizontal ? 'horizontal' : null;
     const expanded = this.props.expanded ? 'expanded' : null;

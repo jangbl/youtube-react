@@ -1,9 +1,6 @@
 import React from 'react';
-import './Trending.scss';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
-import {VideoPreview} from '../../components/VideoPreview/VideoPreview';
-import {InfiniteScroll} from '../../components/InfiniteScroll/InfiniteScroll';
 import * as videoActions from "../../store/actions/video";
 import {
   allMostPopularVideosLoaded,
@@ -11,12 +8,13 @@ import {
   getMostPopularVideosNextPageToken
 } from '../../store/reducers/videos';
 import {getYoutubeLibraryLoaded} from '../../store/reducers/api';
-import {SideBar} from '../SideBar/SideBar';
+import {VideoList} from '../../components/VideoList/VideoList';
 
 class Trending extends React.Component {
   componentDidMount() {
     this.fetchTrendingVideos();
   }
+
   componentDidUpdate(prevProps) {
     if (prevProps.youtubeLibraryLoaded !== this.props.youtubeLibraryLoaded) {
       this.fetchTrendingVideos();
@@ -24,28 +22,14 @@ class Trending extends React.Component {
   }
 
   render() {
-
-    const previews = this.getVideoPreviews();
     const loaderActive = this.shouldShowLoader();
 
-    return (
-      <React.Fragment>
-        <SideBar/>
-        <div className='trending'>
-          <InfiniteScroll bottomReachedCallback={this.fetchMoreVideos} showLoader={loaderActive}>
-            {previews}
-          </InfiniteScroll>
-        </div>
-      </React.Fragment>
-    );
+    return (<VideoList
+      bottomReachedCallback={this.fetchMoreVideos}
+      showLoader={loaderActive}
+      videos={this.props.videos}/>);
   }
 
-  getVideoPreviews() {
-    return this.props.videos.map(video => (
-      <VideoPreview horizontal={true} expanded={true} video={video} key={video.id} pathname={'/watch'}
-                    search={'?v=' + video.id}/>)
-    );
-  }
 
   fetchMoreVideos = () => {
     const {nextPageToken} = this.props;
