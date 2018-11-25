@@ -1,16 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`App renders 1`] = `
-<AppLayout>
-  <Switch>
-    <Route
-      component={[Function]}
-      path="/watch"
-    />
-    <Route
-      component={[Function]}
-      path="/"
-    />
-  </Switch>
-</AppLayout>
+<Route>
+  <Component />
+</Route>
 `;
