@@ -8,7 +8,7 @@ export default function (state = {}, action) {
     case SEARCH_FOR_VIDEOS[REQUEST]:
       // delete the previous search because otherwise our component flickers and shows the
       // previous search results before it shows
-      return {};
+      return action.nextPageToken ? state : {};
     default:
       return state;
   }
