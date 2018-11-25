@@ -2,7 +2,7 @@ import React from 'react';
 import {Form, Icon, Image, Input, Menu} from 'semantic-ui-react';
 import './HeaderNav.scss';
 import logo from '../../assets/images/logo.jpg';
-import {withRouter} from 'react-router-dom';
+import {Link, withRouter} from 'react-router-dom';
 
 export class HeaderNav extends React.Component {
   constructor(props) {
@@ -17,7 +17,7 @@ export class HeaderNav extends React.Component {
       <Menu borderless className='top-menu' fixed='top'>
         {/* 2 */}
         <Menu.Item header className='logo'>
-            <Image src={logo} size='tiny'/>
+          <Link to='/'><Image src={logo} size='tiny'/></Link>
         </Menu.Item>
         {/* 3 */}
         <Menu.Menu className='nav-container'>
