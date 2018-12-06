@@ -23,5 +23,5 @@ describe('Subscription', () => {
     );
     expect(wrapper).toMatchSnapshot();
   });
-})
+});
 

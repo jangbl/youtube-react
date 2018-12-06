@@ -1,6 +1,6 @@
 import React from 'react';
 import {Icon, Image, Menu} from "semantic-ui-react";
-import './Subscription.css';
+import './Subscription.scss';
 
 export function Subscription(props) {
 
@@ -13,8 +13,8 @@ export function Subscription(props) {
   }
 
   return (
-    <Menu.Item className='subscription'>
-      <div className='subscription-wrapper'>
+    <Menu.Item>
+      <div className='subscription'>
         <div>
           <Image src='http://via.placeholder.com/28x28' avatar/>
           <span>{props.label}</span>
