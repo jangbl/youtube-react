@@ -2,37 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/InfiniteScroll/__tests__/__snapshots__/InfiniteScroll.unit.test.js.snap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/__snapshots__/Comment.unit.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppLayout/__tests__/__snapshots__/AppLayout.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppLayout/__tests__/__snapshots__/AppLayout.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/__tests__/__snapshots__/RelatedVideos.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/__tests__/__snapshots__/RelatedVideos.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/__tests__/__snapshots__/Video.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/__tests__/__snapshots__/Video.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoGrid/__tests__/__snapshots__/VideoGrid.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoGrid/__tests__/__snapshots__/VideoGrid.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/__snapshots__/VideoInfoBox.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/__snapshots__/VideoInfoBox.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoMetadata/__tests__/__snapshots__/VideoMetadata.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoMetadata/__tests__/__snapshots__/VideoMetadata.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/__tests__/__snapshots__/VideoPreview.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/__tests__/__snapshots__/VideoPreview.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/__snapshots__/AddComment.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/__snapshots__/AddComment.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/__snapshots__/CommentsHeader.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/__snapshots__/CommentsHeader.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Comments/__tests__/__snapshots__/Comments.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/__tests__/__snapshots__/Comments.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/__snapshots__/HomeContent.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/__snapshots__/HomeContent.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/__snapshots__/SideBarFooter.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/__snapshots__/SideBarFooter.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/__snapshots__/SideBarItem.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/__snapshots__/SideBarItem.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/__snapshots__/Subscription.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/__snapshots__/Subscription.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/__tests__/__snapshots__/SideBar.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/__tests__/__snapshots__/SideBar.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/Watch/__tests__/__snapshots__/Watch.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/__tests__/__snapshots__/Watch.unit.test.js.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/videos.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/SideBarHeader.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,34 +42,34 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="6" />
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="369" />
+          <entry key="js" value="372" />
           <entry key="json" value="12" />
           <entry key="md" value="2" />
-          <entry key="scss" value="109" />
+          <entry key="scss" value="111" />
           <entry key="snap" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
+          <entry key="CSS" value="6" />
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="369" />
+          <entry key="JavaScript" value="372" />
           <entry key="Jest Snapshot" value="14" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="109" />
+          <entry key="SCSS" value="111" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="js" value="21783" />
+          <entry key="js" value="21784" />
           <entry key="json" value="45" />
           <entry key="scss" value="4429" />
         </counts>
@@ -97,7 +77,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="21783" />
+          <entry key="JavaScript" value="21784" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="SCSS" value="4429" />
         </counts>
@@ -110,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
-              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="107" />
+              <caret line="15" column="109" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="107" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -118,11 +98,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -130,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="28" column="46" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="46" />
+            <state relative-caret-position="260">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -139,26 +119,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+            <state>
+              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -167,28 +129,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+            <state relative-caret-position="207">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -197,10 +146,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss">
+        <entry file="file://$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.scss">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="138">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -264,7 +232,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/services/url/index.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/channels.js" />
         <option value="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" />
         <option value="$PROJECT_DIR$/src/store/api/youtube-api-response-types.js" />
@@ -315,6 +282,7 @@
         <option value="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" />
         <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.js" />
       </list>
     </option>
   </component>
@@ -377,7 +345,63 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="InfiniteScroll" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Rating" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="RelatedVideos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="ScrollToTop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Video" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoGrid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoInfoBox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="VideoMetadata" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -397,6 +421,37 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+              <item name="AddComment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+              <item name="Comment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Comments" type="462c0819:PsiDirectoryNode" />
+              <item name="CommentsHeader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="HeaderNav" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -421,15 +476,6 @@
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Home" type="462c0819:PsiDirectoryNode" />
               <item name="HomeContent" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Home" type="462c0819:PsiDirectoryNode" />
-              <item name="HomeContent" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -437,6 +483,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
               <item name="Search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBarFooter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBarHeader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBarItem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="Subscriptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="SideBar" type="462c0819:PsiDirectoryNode" />
+              <item name="Subscriptions" type="462c0819:PsiDirectoryNode" />
+              <item name="Subscription" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -465,71 +559,6 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="date" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="number" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
-              <item name="states" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
-              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="store" type="462c0819:PsiDirectoryNode" />
-              <item name="sagas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -695,13 +724,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="280966000" />
+    <option name="totallyTimeSpent" value="281256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -715,7 +743,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Statistic" order="9" weight="0.57992566" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18103448" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.41379312" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,30 +783,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/store/sagas/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Search/Search.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoList/VideoList.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="15" lean-forward="true" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/date/date-format.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="45" selection-start-line="22" selection-start-column="45" selection-end-line="22" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/services/number/number-format.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -790,13 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -930,9 +927,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -1042,7 +1036,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="667">
-          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1059,52 +1053,45 @@
     <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+        <state relative-caret-position="252">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="367">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="10" column="20" lean-forward="true" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="28" column="46" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="46" />
+        <state relative-caret-position="260">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="107" />
+          <caret line="15" column="109" selection-start-line="15" selection-start-column="106" selection-end-line="15" selection-end-column="107" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1113,8 +1100,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/InfiniteScroll/InfiniteScroll.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Rating/Rating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

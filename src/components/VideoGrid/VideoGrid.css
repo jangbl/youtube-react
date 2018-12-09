@@ -1,6 +1,0 @@
-.video-grid {
-  display: flex;
-  flex-wrap: wrap; }
-  .video-grid > * {
-    margin-left: 4px;
-    margin-bottom: 24px; }
