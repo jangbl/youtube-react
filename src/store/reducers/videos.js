@@ -5,7 +5,7 @@ import {SEARCH_LIST_RESPONSE, VIDEO_LIST_RESPONSE} from '../api/youtube-api-resp
 import {VIDEO_DETAILS, WATCH_DETAILS} from '../actions/watch';
 import {getSearchParam} from '../../services/url';
 
-const initialState = {
+export const initialState = {
   byId: {},
   mostPopular: {},
   categories: {},

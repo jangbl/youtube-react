@@ -1,39 +1,45 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders <AppLayout/> with children 1`] = `
-<div
-  className="app-layout"
->
-  <HeaderNav />
-  <div>
-    Child
-  </div>
-  <div>
-    <span>
+<withRouter(ScrollToTop)>
+  <div
+    className="app-layout"
+  >
+    <withRouter(HeaderNav) />
+    <div>
       Child
-    </span>
-    <p>
-      Child
-    </p>
+    </div>
+    <div>
+      <span>
+        Child
+      </span>
+      <p>
+        Child
+      </p>
+    </div>
   </div>
-</div>
+</withRouter(ScrollToTop)>
 `;
 
 exports[`renders <AppLayout/> with one child 1`] = `
-<div
-  className="app-layout"
->
-  <HeaderNav />
-  <div>
-    Child 1
+<withRouter(ScrollToTop)>
+  <div
+    className="app-layout"
+  >
+    <withRouter(HeaderNav) />
+    <div>
+      Child 1
+    </div>
   </div>
-</div>
+</withRouter(ScrollToTop)>
 `;
 
 exports[`renders empty <AppLayout/> 1`] = `
-<div
-  className="app-layout"
->
-  <HeaderNav />
-</div>
+<withRouter(ScrollToTop)>
+  <div
+    className="app-layout"
+  >
+    <withRouter(HeaderNav) />
+  </div>
+</withRouter(ScrollToTop)>
 `;

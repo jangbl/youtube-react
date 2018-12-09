@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders <InfiniteScroll/> with tall child 1`] = `
+<Fragment>
+  <div />
+  <Waypoint
+    bottomOffset="0px"
+    fireOnRapidScroll={true}
+    horizontal={false}
+    onEnter={[Function]}
+    onLeave={[Function]}
+    onPositionChange={[Function]}
+    topOffset="0px"
+  >
+    <div
+      className="loader-container"
+    >
+      <Loader
+        inline="centered"
+      />
+    </div>
+  </Waypoint>
+</Fragment>
+`;
+
+exports[`renders empty <InfiniteScroll/> 1`] = `
+<Fragment>
+  <Waypoint
+    bottomOffset="0px"
+    fireOnRapidScroll={true}
+    horizontal={false}
+    onEnter={[Function]}
+    onLeave={[Function]}
+    onPositionChange={[Function]}
+    topOffset="0px"
+  >
+    <div
+      className="loader-container"
+    >
+      <Loader
+        inline="centered"
+      />
+    </div>
+  </Waypoint>
+</Fragment>
+`;

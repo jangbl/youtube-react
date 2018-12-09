@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders null if id in video component not specified 1`] = `""`;
+exports[`Video renders null if id in video component not specified 1`] = `""`;
 
-exports[`renders video component correctly 1`] = `
+exports[`Video renders video component correctly 1`] = `
 <div
   className="video-container"
 >
@@ -14,7 +14,7 @@ exports[`renders video component correctly 1`] = `
       allowFullScreen={true}
       className="video-player"
       frameBorder="0"
-      src="https://www.youtube.com/embed/HAuXJVI_bUs?autoplay=1"
+      src="https://www.youtube.com/embed/HAuXJVI_bUs"
       title="video"
     />
   </div>

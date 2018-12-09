@@ -7,13 +7,15 @@ exports[`HomeContent renders 1`] = `
   <div
     className="responsive-video-grid-container"
   >
-    <VideoGrid
-      title="Trending"
-    />
-    <VideoGrid
-      hideDivider={true}
-      title="Autos & Vehicles"
-    />
+    <InfiniteScroll
+      bottomReachedCallback={[MockFunction]}
+      showLoader={true}
+    >
+      <VideoGrid
+        title="Trending"
+        videos={Array []}
+      />
+    </InfiniteScroll>
   </div>
 </div>
 `;

@@ -1,19 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Watch renders 1`] = `
-<div
-  className="watch-grid"
->
-  <Video
-    className="video"
-    id="MHTXEACrjFM"
-  />
-  <VideoMetadata
-    viewCount={1000}
-  />
-  <VideoInfoBox />
-  <RelatedVideos
-    className="relatedVideos"
-  />
-</div>
+<Connect(WatchContent)
+  bottomReachedCallback={[Function]}
+  videoId={null}
+/>
 `;

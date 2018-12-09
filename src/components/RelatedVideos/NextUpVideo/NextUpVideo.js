@@ -7,13 +7,13 @@ export function NextUpVideo(props) {
   return (
     <React.Fragment>
       <div className='next-up-container'>
-          <h4>Up next</h4>
-          <div className='up-next-toggle'>
-            <span>Autoplay</span>
-            <Checkbox toggle defaultChecked />
-          </div>
+        <h4>Up next</h4>
+        <div className='up-next-toggle'>
+          <span>Autoplay</span>
+          <Checkbox toggle defaultChecked/>
+        </div>
       </div>
-      <VideoPreview horizontal={true} video={props.video}/>
+      <VideoPreview horizontal={true} video={props.video} pathname='/watch' search={`?v=${props.video.id}`}/>
       <Divider/>
     </React.Fragment>
   );

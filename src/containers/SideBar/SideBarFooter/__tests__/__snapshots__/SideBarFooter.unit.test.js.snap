@@ -15,7 +15,7 @@ exports[`SideBarFooter renders 1`] = `
       Developers +MyTube
     </div>
     <div>
-      Impressum
+      Legal
     </div>
   </div>
   <div

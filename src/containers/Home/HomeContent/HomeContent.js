@@ -7,7 +7,7 @@ import {InfiniteScroll} from '../../../components/InfiniteScroll/InfiniteScroll'
 
 const AMOUNT_TRENDING_VIDEOS = 12;
 
-class HomeContent extends React.Component {
+export class HomeContent extends React.Component {
   render() {
     const trendingVideos = this.getTrendingVideos();
     const categoryGrids = this.getVideoGridsForCategories();

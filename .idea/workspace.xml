@@ -2,12 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c1ce46-d776-4a22-ae9c-734396bad066" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/InfiniteScroll/__tests__/__snapshots__/InfiniteScroll.unit.test.js.snap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Comments/Comment/__tests__/__snapshots__/Comment.unit.test.js.snap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppLayout/__tests__/__snapshots__/AppLayout.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppLayout/__tests__/__snapshots__/AppLayout.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/__tests__/__snapshots__/Rating.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RelatedVideos/__tests__/__snapshots__/RelatedVideos.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RelatedVideos/__tests__/__snapshots__/RelatedVideos.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/__tests__/__snapshots__/Video.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/__tests__/__snapshots__/Video.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoGrid/__tests__/__snapshots__/VideoGrid.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoGrid/__tests__/__snapshots__/VideoGrid.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/__snapshots__/VideoInfoBox.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoInfoBox/__tests__/__snapshots__/VideoInfoBox.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoMetadata/__tests__/__snapshots__/VideoMetadata.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoMetadata/__tests__/__snapshots__/VideoMetadata.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoPreview/__tests__/__snapshots__/VideoPreview.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoPreview/__tests__/__snapshots__/VideoPreview.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/__snapshots__/AddComment.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/AddComment/__tests__/__snapshots__/AddComment.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/__snapshots__/CommentsHeader.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/CommentsHeader/__tests__/__snapshots__/CommentsHeader.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Comments/__tests__/__snapshots__/Comments.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Comments/__tests__/__snapshots__/Comments.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HeaderNav/__tests__/__snapshots__/HeaderNav.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/__snapshots__/HomeContent.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/__snapshots__/HomeContent.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/__snapshots__/SideBarFooter.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/__tests__/__snapshots__/SideBarFooter.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/__snapshots__/SideBarItem.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/__snapshots__/SideBarItem.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/__snapshots__/Subscription.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/__snapshots__/Subscription.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SideBar/__tests__/__snapshots__/SideBar.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SideBar/__tests__/__snapshots__/SideBar.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/Watch/__tests__/__snapshots__/Watch.unit.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/Watch/__tests__/__snapshots__/Watch.unit.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/videos.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/videos.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,16 +47,17 @@
     <session id="-1652503528">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="92" />
+          <entry key="project.closed" value="94" />
           <entry key="project.open.time.1" value="16" />
+          <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="13" />
-          <entry key="project.open.time.5" value="45" />
+          <entry key="project.open.time.5" value="46" />
           <entry key="project.open.time.6" value="9" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="93" />
+          <entry key="project.opened" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,10 +66,10 @@
           <entry key="gitignore" value="1" />
           <entry key="html" value="1" />
           <entry key="jpg" value="1" />
-          <entry key="js" value="357" />
+          <entry key="js" value="369" />
           <entry key="json" value="12" />
           <entry key="md" value="2" />
-          <entry key="scss" value="107" />
+          <entry key="scss" value="109" />
           <entry key="snap" value="14" />
         </counts>
       </usages-collector>
@@ -53,27 +79,27 @@
           <entry key="HTML" value="1" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="12" />
-          <entry key="JavaScript" value="357" />
+          <entry key="JavaScript" value="369" />
           <entry key="Jest Snapshot" value="14" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="SCSS" value="107" />
+          <entry key="SCSS" value="109" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="6" />
-          <entry key="js" value="21536" />
+          <entry key="js" value="21783" />
           <entry key="json" value="45" />
-          <entry key="scss" value="4419" />
+          <entry key="scss" value="4429" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="21536" />
+          <entry key="JavaScript" value="21783" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="4419" />
+          <entry key="SCSS" value="4429" />
         </counts>
       </usages-collector>
     </session>
@@ -81,60 +107,58 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/VideoGrid/VideoGrid.scss">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+        <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/App.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/AppLayout/AppLayout.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="345">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="107" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js">
+        <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="322">
+              <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js">
+        <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="28" column="46" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+              <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -143,22 +167,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="390">
+              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarHeader/__tests__/SideBarHeader.unit.test.js">
+        <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+            <state relative-caret-position="299">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="667">
+              <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -170,7 +200,7 @@
         <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -187,7 +217,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getPublishedAtDateString</find>
       <find>iso8601DateString</find>
       <find>RelatedVide</find>
       <find>build</find>
@@ -217,6 +246,7 @@
       <find>chrome</find>
       <find>scroll</find>
       <find>react-router</find>
+      <find>pathname.incl</find>
     </findStrings>
     <replaceStrings>
       <replace>Comment</replace>
@@ -234,13 +264,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/Rating/Rating.js" />
-        <option value="$PROJECT_DIR$/src/components/VideoMetadata/VideoMetadata.js" />
-        <option value="$PROJECT_DIR$/src/services/date/date-format.js" />
-        <option value="$PROJECT_DIR$/src/store/sagas/video.js" />
-        <option value="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js" />
-        <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" />
-        <option value="$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.scss" />
         <option value="$PROJECT_DIR$/src/services/url/index.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/channels.js" />
         <option value="$PROJECT_DIR$/src/components/VideoInfoBox/VideoInfoBox.js" />
@@ -254,11 +277,9 @@
         <option value="$PROJECT_DIR$/src/store/sagas/comment.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/comments.js" />
         <option value="$PROJECT_DIR$/src/containers/Watch/Watch.js" />
-        <option value="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" />
         <option value="$PROJECT_DIR$/src/containers/Home/Home.js" />
         <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js" />
         <option value="$PROJECT_DIR$/src/containers/SideBar/SideBar.js" />
-        <option value="$PROJECT_DIR$/src/store/reducers/videos.js" />
         <option value="$PROJECT_DIR$/src/containers/Trending/Trending.scss" />
         <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.scss" />
         <option value="$PROJECT_DIR$/src/services/number/number-format.js" />
@@ -272,12 +293,10 @@
         <option value="$PROJECT_DIR$/src/containers/Trending/Trending.js" />
         <option value="$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js" />
         <option value="$PROJECT_DIR$/src/containers/Search/Search.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/VideoList/VideoList.js" />
         <option value="$PROJECT_DIR$/src/components/AppLayout/AppLayout.js" />
         <option value="$PROJECT_DIR$/src/components/ScrollToTop/ScrollToTop.js" />
         <option value="$PROJECT_DIR$/src/store/reducers/search.js" />
-        <option value="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/containers/Comments/Comment/Comment.scss" />
         <option value="$PROJECT_DIR$/src/containers/HeaderNav/HeaderNav.js" />
@@ -285,6 +304,17 @@
         <option value="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss" />
         <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js" />
         <option value="$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/__tests__/Subscription.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/videos.js" />
+        <option value="$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js" />
+        <option value="$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js" />
+        <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss" />
+        <option value="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js" />
+        <option value="$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss" />
+        <option value="$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -307,7 +337,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="801" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -361,6 +391,59 @@
               <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="HeaderNav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="HeaderNav" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeContent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Home" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeContent" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Search" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Trending" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -423,6 +506,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="store" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
+              <item name="youtube-react" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="__tests__" type="462c0819:PsiDirectoryNode" />
+              <item name="states" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="youtube-react" type="b2602c69:ProjectViewProjectNode" />
@@ -589,17 +689,19 @@
       <workItem from="1543861319213" duration="1201000" />
       <workItem from="1543993658773" duration="1343000" />
       <workItem from="1544076906879" duration="297000" />
+      <workItem from="1544259435624" duration="1570000" />
+      <workItem from="1544352989204" duration="1159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="277312000" />
+    <option name="totallyTimeSpent" value="280966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="801" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -612,8 +714,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Statistic" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.36940837" />
+      <window_info anchor="bottom" id="Statistic" order="9" weight="0.57992566" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.18103448" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -653,50 +755,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/actions/video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/api/youtube-api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1472">
-          <caret line="64" column="31" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoList.js" />
-    <entry file="file://$PROJECT_DIR$/src/containers/Trending/Trending.scss" />
-    <entry file="file://$PROJECT_DIR$/src/store/sagas/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/sagas/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -756,13 +814,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/reducers/videos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="279" column="3" lean-forward="true" selection-start-line="279" selection-start-column="3" selection-end-line="279" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/reducers/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -801,44 +852,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="3" selection-start-line="33" selection-start-column="3" selection-end-line="33" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/store/sagas/watch.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="34" selection-start-line="34" selection-end-line="36" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/store/actions/search.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -859,13 +879,6 @@
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBar.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-97" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBar.js">
@@ -910,13 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="42" column="20" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscriptions.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
@@ -931,13 +937,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="17" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -958,20 +957,7 @@
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarFooter/SideBarFooter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -979,6 +965,84 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Video/Video.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Video/Video.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Video/__tests__/Video.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/__tests__/videos.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/HomeContent/__tests__/HomeContent.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/HeaderNav/__tests__/HeaderNav.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Home/HomeContent/HomeContent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/reducers/videos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/__tests__/SideBarItem.unit.test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="28" lean-forward="true" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/SideBar/SideBarItem/SideBarItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -988,14 +1052,69 @@
     <entry file="file://$PROJECT_DIR$/src/containers/SideBar/Subscriptions/Subscription/Subscription.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Watch/Watch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/RelatedVideos.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="390">
+          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/containers/Watch/WatchContent/WatchContent.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/VideoPreview/VideoPreview.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="28" column="46" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/RelatedVideos/NextUpVideo/NextUpVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="107" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="23" column="18" lean-forward="true" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>

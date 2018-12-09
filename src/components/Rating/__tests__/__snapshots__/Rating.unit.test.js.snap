@@ -4,32 +4,19 @@ exports[`Rating renders 1`] = `
 <div
   className="rating"
 >
-  <div
-    className="thumbs-up"
-  >
+  <div>
     <Icon
       as="i"
       name="thumbs outline up"
     />
-    <span>
-      1K
-    </span>
+    <span />
   </div>
-  <div
-    className="thumbs-down"
-  >
+  <div>
     <Icon
       as="i"
       name="thumbs outline down"
     />
-    <span>
-      100
-    </span>
+    <span />
   </div>
-  <Progress
-    className="progress"
-    percent={91}
-    size="tiny"
-  />
 </div>
 `;

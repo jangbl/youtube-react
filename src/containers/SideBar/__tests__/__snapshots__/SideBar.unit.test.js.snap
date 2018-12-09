@@ -8,16 +8,17 @@ exports[`SideBar renders 1`] = `
   stackable={true}
   vertical={true}
 >
-  <SideBarItem
-    highlight={true}
+  <withRouter(SideBarItem)
     icon="home"
     label="Home"
+    path="/"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="fire"
     label="Trending"
+    path="/feed/trending"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="spy"
     label="Followers"
   />
@@ -25,15 +26,15 @@ exports[`SideBar renders 1`] = `
   <SideBarHeader
     title="Library"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="history"
     label="History"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="clock"
     label="Watch later"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="thumbs up"
     label="Liked videos"
   />
@@ -42,20 +43,20 @@ exports[`SideBar renders 1`] = `
   <SideBarHeader
     title="More from Youtube"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="film"
     label="Movies and Shows"
   />
   <Divider />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="flag"
     label="Report history"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="help circle"
     label="Help"
   />
-  <SideBarItem
+  <withRouter(SideBarItem)
     icon="comment"
     label="Send feedback"
   />

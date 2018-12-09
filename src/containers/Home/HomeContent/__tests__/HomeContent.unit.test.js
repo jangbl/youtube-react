@@ -4,7 +4,9 @@ import React from 'react';
 
 describe('HomeContent', () => {
   test('renders', () => {
-    const wrapper = shallow(<HomeContent/>);
+    const wrapper = shallow(
+      <HomeContent bottomReachedCallback={jest.fn()} showLoader={true} ideosByCategory={[]} mostPopularVideos={[]}/>
+    );
     expect(wrapper).toMatchSnapshot();
   });
 });

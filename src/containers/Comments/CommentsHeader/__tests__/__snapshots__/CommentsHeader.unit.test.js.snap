@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`CommentsHeader renders with props.amountComments = 0 1`] = `
+exports[`CommentsHeader CommentsHeader renders with props.amountComments = 0 1`] = `
 <div
   className="comments-header"
 >
   <h4>
-    0
+    123
      Comments
   </h4>
   <Button
@@ -25,57 +25,7 @@ exports[`CommentsHeader renders with props.amountComments = 0 1`] = `
 </div>
 `;
 
-exports[`CommentsHeader renders with props.amountComments = 1 1`] = `
-<div
-  className="comments-header"
->
-  <h4>
-    1
-     Comments
-  </h4>
-  <Button
-    as="button"
-    basic={true}
-    compact={true}
-    icon={true}
-    labelPosition="left"
-    role="button"
-  >
-    <Icon
-      as="i"
-      name="align left"
-    />
-    Sort by
-  </Button>
-</div>
-`;
-
-exports[`CommentsHeader renders with props.amountComments = 5 1`] = `
-<div
-  className="comments-header"
->
-  <h4>
-    5
-     Comments
-  </h4>
-  <Button
-    as="button"
-    basic={true}
-    compact={true}
-    icon={true}
-    labelPosition="left"
-    role="button"
-  >
-    <Icon
-      as="i"
-      name="align left"
-    />
-    Sort by
-  </Button>
-</div>
-`;
-
-exports[`CommentsHeader renders with props.amountComments = null 1`] = `
+exports[`CommentsHeader CommentsHeader renders with props.amountComments = null 1`] = `
 <div
   className="comments-header"
 >

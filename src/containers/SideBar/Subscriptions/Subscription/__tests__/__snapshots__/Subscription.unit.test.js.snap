@@ -1,11 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Subscription renders broadcasting subscription 1`] = `
-<MenuItem
-  className="subscription"
->
+<MenuItem>
   <div
-    className="subscription-wrapper"
+    className="subscription"
   >
     <div>
       <Image
@@ -27,11 +25,9 @@ exports[`Subscription renders broadcasting subscription 1`] = `
 `;
 
 exports[`Subscription renders empty subscription 1`] = `
-<MenuItem
-  className="subscription"
->
+<MenuItem>
   <div
-    className="subscription-wrapper"
+    className="subscription"
   >
     <div>
       <Image
@@ -47,11 +43,9 @@ exports[`Subscription renders empty subscription 1`] = `
 `;
 
 exports[`Subscription renders non-broadcasting subscription with new videos 1`] = `
-<MenuItem
-  className="subscription"
->
+<MenuItem>
   <div
-    className="subscription-wrapper"
+    className="subscription"
   >
     <div>
       <Image
