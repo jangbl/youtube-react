@@ -2,7 +2,7 @@
 
 .video-info-box {
   display: grid;
-  grid: auto auto / 56px auto max-content;
+  grid: auto auto / calc(#{$avatar-diameter} + #{$avatar-margin}) auto max-content;
   align-items: center;
   grid-row-gap: 16px;
 
