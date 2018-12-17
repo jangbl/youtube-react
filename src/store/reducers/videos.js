@@ -65,20 +65,18 @@ function reduceFetchVideoCategories(response, prevState) {
 }
 
 function reduceFetchMostPopularVideosByCategory(responses, categories, prevState) {
-  const {videoMap, byCategoryMap} = responses.reduce((accumulator, response, index) => {
-    // ignore the responses that contain errors
-    // the Youtube API might not return most popular videos for every category id
-    if (response.status === 400) {
-      return accumulator;
-    }
+  let videoMap = {};
+  let byCategoryMap = {};
+
+  responses.forEach((response, index) => {
+    // ignore answer if there was an error
+    if (response.status === 400) return;
+
     const categoryId = categories[index];
-    const {byId, byCategory} = groupVideosByIdAndCategory(response.result, categoryId);
-    // merge videoMaps and categoryMaps together for all requests into one object
-    return {
-      videoMap: {...accumulator.videoMap, ...byId},
-      byCategoryMap: {...accumulator.byCategoryMap, ...byCategory},
-    };
-  }, {videoMap: {}, byCategoryMap: {}});
+    const {byId, byCategory} = groupVideosByIdAndCategory(response.result);
+    videoMap = {...videoMap, ...byId};
+    byCategoryMap[categoryId] = byCategory;
+  });
 
   // compute new state
   return {
@@ -88,27 +86,27 @@ function reduceFetchMostPopularVideosByCategory(responses, categories, prevState
   };
 }
 
-function groupVideosByIdAndCategory(response, categoryId) {
+function groupVideosByIdAndCategory(response) {
   const videos = response.items;
-  return videos.reduce((accumulator, video) => {
-    accumulator.byId[video.id] = video;
-    if (!accumulator.byCategory[categoryId]) {
-      accumulator.byCategory[categoryId] = {
-        totalResults: response.pageInfo.totalResults,
-        nextPageToken: response.nextPageToken,
-      };
+  const byId = {};
+  const byCategory = {
+    totalResults: response.pageInfo.totalResults,
+    nextPageToken: response.nextPageToken,
+    items: [],
+  };
+
+  videos.forEach((video) => {
+    byId[video.id] = video;
+
+    const items = byCategory.items;
+    if(items && items) {
+      items.push(video.id);
+    } else {
+      byCategory.items = [video.id];
     }
-    let updatedItems = [video.id];
-    let {items} = accumulator.byCategory[categoryId];
-    if (items && items.length) {
-      // if we already have some video ids, we must not
-      // throw away the elements we already have
-      // in this case we just prepend them to the array
-      updatedItems = [...items, ...updatedItems];
-    }
-    accumulator.byCategory[categoryId].items = updatedItems;
-    return accumulator;
-  }, {byId: {}, byCategory: {}});
+  });
+
+  return {byId, byCategory};
 }
 
 function reduceWatchDetails(responses, prevState) {
