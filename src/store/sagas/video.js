@@ -42,8 +42,7 @@ export function* watchMostPopularVideos() {
 
 export function* watchMostPopularVideosByCategory() {
   while(true) {
-    const action = yield take(videoActions.MOST_POPULAR_BY_CATEGORY[REQUEST]);
-    const {categories} = action;
+    const {categories} = yield take(videoActions.MOST_POPULAR_BY_CATEGORY[REQUEST]);
     yield fork(fetchMostPopularVideosByCategory, categories);
   }
 }
