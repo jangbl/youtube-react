@@ -4,7 +4,10 @@ import {NextUpVideo} from '../NextUpVideo';
 
 describe('NextUpVideo', () => {
   test('renders', () => {
-    const wrapper = shallow(<NextUpVideo/>);
+    const video = {
+      id: 'some-id'
+    };
+    const wrapper = shallow(<NextUpVideo video={video}/>);
     expect(wrapper).toMatchSnapshot();
   });
 });

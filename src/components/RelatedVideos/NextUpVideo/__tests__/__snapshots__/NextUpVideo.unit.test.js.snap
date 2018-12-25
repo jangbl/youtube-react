@@ -23,6 +23,13 @@ exports[`NextUpVideo renders 1`] = `
   </div>
   <VideoPreview
     horizontal={true}
+    pathname="/watch"
+    search="?v=some-id"
+    video={
+      Object {
+        "id": "some-id",
+      }
+    }
   />
   <Divider />
 </Fragment>

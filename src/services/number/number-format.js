@@ -4,7 +4,7 @@ const UNITS = ['K', 'M', 'B', 'T'];
 export function getShortNumberString(number) {
   const shouldShowDecimalPlace = UNITS.some((element, index) => {
     const lowerBound = Math.pow(1000, index + 1);
-    const upperBound = lowerBound * 10;
+    const upperBound = lowerBound + lowerBound * 10;
     return  number > lowerBound && number < upperBound
   });
   const digits = shouldShowDecimalPlace ? 1 : 0;
