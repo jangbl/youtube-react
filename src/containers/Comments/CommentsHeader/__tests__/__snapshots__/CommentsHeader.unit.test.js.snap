@@ -14,7 +14,6 @@ exports[`CommentsHeader CommentsHeader renders with props.amountComments = 0 1`]
     compact={true}
     icon={true}
     labelPosition="left"
-    role="button"
   >
     <Icon
       as="i"
@@ -38,7 +37,6 @@ exports[`CommentsHeader CommentsHeader renders with props.amountComments = null 
     compact={true}
     icon={true}
     labelPosition="left"
-    role="button"
   >
     <Icon
       as="i"
