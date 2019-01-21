@@ -37,7 +37,7 @@ To use it, you need to set up a [Youtube Data v3 API key](https://productioncode
 11. Where will you be calling the API from: `Web browser`
 12. What data are you accessing: `Public data`
 13. Click the `What credentials do I need button`
-14. **Copy the API key, and paste it into `src/App.js`
+14. **Copy the API key, and paste it into `src/App.js`**
 ```
 const API_KEY = 'AIzaxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 ```
