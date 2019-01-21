@@ -27,3 +27,12 @@
     grid-row: 4 / 5;
   }
 }
+
+// 1280px (max-width of video column) + 402px (width of side bar) + 3 * 24px (empty space on the left, right and between the two columns)
+@media(max-width: 1754px) {
+  .watch-grid {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+
