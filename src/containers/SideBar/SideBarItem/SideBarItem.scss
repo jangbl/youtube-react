@@ -6,14 +6,15 @@
       color: #888888;
     }
   }
-}
-.sidebar-item.highlight-item {
-  span {
-    font-weight: 600;
-  }
 
-  i.icon {
-    color: #ff0002;
+  &.highlight-item {
+    span {
+      font-weight: 600;
+    }
+
+    i.icon {
+      color: #ff0002;
+    }
   }
 }
 
