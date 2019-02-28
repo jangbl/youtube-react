@@ -5,6 +5,7 @@ exports[`renders <InfiniteScroll/> with tall child 1`] = `
   <div />
   <Waypoint
     bottomOffset="0px"
+    debug={false}
     fireOnRapidScroll={true}
     horizontal={false}
     onEnter={[Function]}
@@ -27,6 +28,7 @@ exports[`renders empty <InfiniteScroll/> 1`] = `
 <Fragment>
   <Waypoint
     bottomOffset="0px"
+    debug={false}
     fireOnRapidScroll={true}
     horizontal={false}
     onEnter={[Function]}
