@@ -7,9 +7,9 @@
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-linkify": "^0.2.2",
+    "react-linkify": "^1.0.0-alpha",
     "react-redux": "^7.0.3",
-    "react-router-dom": "^5.0.0",
+    "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-test-renderer": "^16.8.6",
     "react-waypoint": "^9.0.2",
@@ -26,8 +26,8 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "enzyme": "^3.9.0",
-    "enzyme-adapter-react-16": "^1.13.1",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
     "enzyme-to-json": "^3.3.5"
   },
   "browserslist": [
