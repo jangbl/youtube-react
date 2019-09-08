@@ -10,14 +10,14 @@
     "react-linkify": "^1.0.0-alpha",
     "react-redux": "^7.0.3",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1",
+    "react-scripts": "3.1.1",
     "react-test-renderer": "^16.8.6",
     "react-waypoint": "^9.0.2",
     "redux": "^4.0.1",
     "redux-saga": "^1.0.2",
     "reselect": "^4.0.0",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^0.87.1"
+    "semantic-ui-react": "^0.88.0"
   },
   "scripts": {
     "start": "react-scripts start",
