@@ -1,6 +1,8 @@
 # 1 About
 This repository is the source code for the epic length [Build Youtube in React](https://productioncoder.com/build-youtube-in-react-part-1/) tutorial series provided by [productioncoder.com](https://productioncoder.com).
 
+<h3 align="center">Please help this repo with a ⭐️ if you find it useful! 😁</h3>
+
 # 2 Demo
 **[Please watch the demo on Youtube](https://www.youtube.com/watch?v=E7wJTI-1dvQ)**
 
