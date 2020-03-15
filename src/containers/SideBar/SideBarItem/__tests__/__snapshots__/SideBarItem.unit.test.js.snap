@@ -2,7 +2,6 @@
 
 exports[`SideBarItem Render non-highlighted SideBarItem 1`] = `
 <Link
-  replace={false}
   to={
     Object {
       "pathname": undefined,
@@ -33,7 +32,6 @@ exports[`SideBarItem Render non-highlighted SideBarItem 1`] = `
 
 exports[`SideBarItem Renders SideBarItem without path 1`] = `
 <Link
-  replace={false}
   to={
     Object {
       "pathname": undefined,
@@ -61,7 +59,6 @@ exports[`SideBarItem Renders SideBarItem without path 1`] = `
 
 exports[`SideBarItem Renders highlighted SideBarItem 1`] = `
 <Link
-  replace={false}
   to={
     Object {
       "pathname": "/feed/trending",
