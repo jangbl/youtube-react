@@ -94,8 +94,7 @@ yarn install
 
 ### 4.4.1 Running locally with local env vars
 
-You can run
-
+You can run:
 ```
 npm run dev
 ```
@@ -116,7 +115,13 @@ and then run
 npm start
 ```
 
-**If you close the terminal, you will need to source the file again. That's why it is recommended to just run `npm run dev` so you don't need to think about it**
+You can also use [yarn](https://yarnpkg.com/lang/en/) to run the application.
+
+```
+yarn test
+```
+
+**If you close the terminal, you will need to source the file again. That's why it is recommended to just run `npm run dev` so you don't need to think about it**.
 
 ### 4.4.2 Running locally with hardcoded Youtube API key
 
