@@ -2,7 +2,7 @@
 
 .video-preview {
   display: grid;
-  grid: 118px auto / 210px;
+  grid: 180px auto / 320px;
 
   /*
      override grid settings to make VideoPreview horizontal.
@@ -10,6 +10,10 @@
    */
   &.horizontal {
     grid: auto / 210px auto;
+
+    .video-info {
+      margin-top: 0;
+    }
 
     &.expanded {
       grid: auto / 246px auto;
@@ -23,14 +27,15 @@
 }
 
 .video-info {
+  margin-top: 8px;
   grid-row: 2 / 3; /* is overriden when VideoPreview is horizontal */
   grid-column: 1 / 2; /* is overriden when VideoPreview is horizontal */
   color: $text-color-dark;
 
   .video-preview-metadata-container {
     padding-top: 5px;
-    font-size: 13px;
-    color: #6E6E6E;
+    font-size: 14px;
+    color: #6e6e6e;
 
     .channel-title {
       white-space: nowrap;
@@ -41,6 +46,7 @@
 
   .show-max-two-lines {
     overflow: hidden;
+    font-size: 16px;
     line-height: 1.4em;
     max-height: 2.8em;
   }
@@ -51,7 +57,7 @@
 
   .semi-bold {
     &.expanded {
-      font-weight: 400;
+      font-weight: 500;
       font-size: 1.3rem;
     }
     font-weight: 600;
