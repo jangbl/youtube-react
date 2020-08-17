@@ -118,7 +118,7 @@ npm start
 You can also use [yarn](https://yarnpkg.com/lang/en/) to run the application.
 
 ```
-yarn test
+yarn start
 ```
 
 **If you close the terminal, you will need to source the file again. That's why it is recommended to just run `npm run dev` so you don't need to think about it**.
