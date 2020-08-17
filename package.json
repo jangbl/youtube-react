@@ -20,6 +20,7 @@
     "semantic-ui-react": "^1.2.0"
   },
   "scripts": {
+    "dev": "source .env.local && npm start",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
