@@ -51,7 +51,7 @@ export class HeaderNav extends React.Component {
             </Menu.Item>
             {/* 7*/}
             <Menu.Item name='avatar'>
-              <Image src='http://via.placeholder.com/80x80' avatar/>
+              <Image src='https://via.placeholder.com/80x80' avatar/>
             </Menu.Item>
           </Menu.Menu>
         </Menu.Menu>
