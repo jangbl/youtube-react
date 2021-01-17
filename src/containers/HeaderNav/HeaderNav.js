@@ -17,7 +17,7 @@ export class HeaderNav extends React.Component {
       <Menu borderless className='top-menu' fixed='top'>
         {/* 2 */}
         <Menu.Item header className='logo'>
-          <Link to='/'><Image src={logo} size='tiny'/></Link>
+          <Link to='/'><Image src={logo} size='medium'/></Link>
         </Menu.Item>
         {/* 3 */}
         <Menu.Menu className='nav-container'>
@@ -27,6 +27,8 @@ export class HeaderNav extends React.Component {
               <Form.Field>
                 <Input placeholder='Search'
                        size='small'
+                       width="50%"
+                       style={{width: "300%"}}
                        action='Go'
                        value={this.state.query}
                        onChange={this.onInputChange}
