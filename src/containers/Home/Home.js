@@ -40,7 +40,6 @@ class Home extends React.Component {
               url="videos/video-output-2.mkv"
               controls={true} 
             />
-            <a href="/TestSearc">test</a>
             <ReactPlayer
               url="https://www.youtube.com/watch?v=PgV7dn_59YE"
             />

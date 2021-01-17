@@ -41,7 +41,7 @@ export class VideoPreview extends React.Component {
               {/* <div className='channel-title'>{video.snippet.channelTitle}</div>
               <div className='view-and-time'>{viewAndTimeString}</div>
               <div className='show-max-two-lines'>{description}</div> */}
-              <h1>testVidPre</h1>
+              <h3>Video Summary Preview</h3>
             </div>
           </div>
         </div>
