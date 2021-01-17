@@ -12,7 +12,7 @@ export function VideoMetadata(props) {
   return (
     <div className='video-metadata'>
       <h3>{props.video.snippet.title}</h3>
-      <div className='video-stats'>
+      {/* <div className='video-stats'>
         <span>{viewCount} views</span>
         <div className='video-actions' >
           <Rating likeCount={props.video.statistics.likeCount}
@@ -28,7 +28,7 @@ export function VideoMetadata(props) {
             <Icon name='ellipsis horizontal' />
           </Button>
         </div>
-      </div>
+      </div> */}
       <Divider/>
     </div>
   );

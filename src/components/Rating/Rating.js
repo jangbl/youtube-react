@@ -20,7 +20,7 @@ export function Rating(props) {
   }
   return (
     <div className='rating'>
-      <div >
+      {/* <div >
         <Icon name='thumbs outline up'/>
         <span>{likeCount}</span>
       </div>
@@ -28,7 +28,7 @@ export function Rating(props) {
         <Icon name='thumbs outline down'/>
         <span>{dislikeCount}</span>
       </div>
-      {rating}
+      {rating} */}
     </div>
   );
 }

@@ -30,17 +30,18 @@ export class VideoInfoBox extends React.Component {
     return (
       <div>
         <div className='video-info-box'>
-          <Image className='channel-image' src={channelThumbnail} circular/>
+          {/* <Image className='channel-image' src={channelThumbnail} circular/>
           <div className="video-info">
             <div className='channel-name'>{channelTitle}</div>
             <div className='video-publication-date'>{publishedAtString}</div>
           </div>
-          <Button className='subscribe' color='youtube'>{buttonText}</Button>
+          <Button className='subscribe' color='youtube'>{buttonText}</Button> */}
           <div className="video-description">
-            <div className={descriptionTextClass}>
+            {/* <div className={descriptionTextClass}>
               {descriptionParagraphs}
-            </div>
-            <Button compact onClick={this.onToggleCollapseButtonClick}>{buttonTitle}</Button>
+            </div> */}
+            <h1>testDescription</h1>
+            {/* <Button compact onClick={this.onToggleCollapseButtonClick}>{buttonTitle}</Button> */}
           </div>
         </div>
         <Divider/>

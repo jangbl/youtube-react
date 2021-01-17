@@ -38,9 +38,10 @@ export class VideoPreview extends React.Component {
           <div className='video-info'>
             <div className={['semi-bold', 'show-max-two-lines', expanded].join(' ')}>{video.snippet.title}</div>
             <div className='video-preview-metadata-container'>
-              <div className='channel-title'>{video.snippet.channelTitle}</div>
+              {/* <div className='channel-title'>{video.snippet.channelTitle}</div>
               <div className='view-and-time'>{viewAndTimeString}</div>
-              <div className='show-max-two-lines'>{description}</div>
+              <div className='show-max-two-lines'>{description}</div> */}
+              <h1>testVidPre</h1>
             </div>
           </div>
         </div>

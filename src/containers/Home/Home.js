@@ -1,4 +1,7 @@
-import React from 'react';
+import React from "react"
+import ReactPlayer from "react-player"
+import {Route} from 'react-router-dom';
+
 import {connect} from "react-redux";
 import * as videoActions from "../../store/actions/video";
 import './Home.scss';
@@ -7,6 +10,8 @@ import HomeContent from './HomeContent/HomeContent';
 import {bindActionCreators} from 'redux';
 import {getYoutubeLibraryLoaded} from '../../store/reducers/api';
 import {getVideoCategoryIds, videoCategoriesLoaded, videosByCategoryLoaded} from '../../store/reducers/videos';
+import { Switch } from "react-router-dom";
+import TestSearch from "../TestSearch/TestSearch";
 
 class Home extends React.Component {
   constructor(props) {
@@ -20,9 +25,27 @@ class Home extends React.Component {
     return (
       <React.Fragment>
         {/*<SideBar/>*/}
-        <HomeContent
+        {/* <HomeContent
           bottomReachedCallback={this.bottomReachedCallback}
-          showLoader={this.shouldShowLoader()}/>
+          showLoader={this.shouldShowLoader()}/> */}
+          <div style={{
+        position: 'absolute', left: '50%', top: '90%',
+        transform: 'translate(-50%, -50%)'
+    }}>
+            <ReactPlayer
+              url="videos/video-output.mp4"
+              controls={true} 
+            />
+            <ReactPlayer
+              url="videos/video-output-2.mkv"
+              controls={true} 
+            />
+            <a href="/TestSearc">test</a>
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=PgV7dn_59YE"
+            />
+          </div>
+          
       </React.Fragment>
     );
   }
