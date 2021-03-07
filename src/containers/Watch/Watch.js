@@ -21,14 +21,39 @@ export class Watch extends React.Component {
     // console.log('video ID in watch component: ' + videoId);
     // items: Tuple[name, ranges]
     // ranges: List[Tuple[start_frame, end_frame]]
-    const bookmarks = this.state.bookmarks? Object.entries(this.state.bookmarks).map((item, i) =>
-      <div key={i}>{item[0]}
-        {item[1].map(range =>
-            <button onClick={() => this.change_timestamp(range[0])}>
-              {range[0]} - {range[1]}
-            </button>
-        )}
-      </div>
+
+    const num_seconds = 50;
+    const videoWidth = 800;  // dummy val
+    const bookmarks = this.state.bookmarks? Object.entries(this.state.bookmarks).map((item, i) => {
+      let prev = 0;
+      const color = `#${this.random_color()}`;
+      return <div key={i}>{item[0]}<br/>
+            {item[1].map(range => {
+                  //  fill in the blank ranges
+                    const blank = range[0] !== prev? <button disabled style={{
+                      width: Math.floor(videoWidth / num_seconds) * (range[0] - prev),
+                      display: 'inline',
+                      backgroundColor: 'white'
+                    }}>{prev}-{range[0]}</button> : null;
+                    prev = range[1];
+
+                  return (
+                      <div style={{display: 'inline'}}>
+                          {blank}
+                        <button style={{
+                          width: Math.floor(videoWidth / num_seconds) * (range[1] - range[0]),
+                          display: 'inline',
+                          backgroundColor: color
+                        }} onClick={() => this.change_timestamp(range[0])}>
+                          {range[0]}-{range[1]}
+                        </button>
+                      </div>
+                      )
+
+                }
+            )}
+          </div>
+        }
     ) : null;
     return (
         <div>
@@ -89,6 +114,8 @@ export class Watch extends React.Component {
   change_timestamp = seconds => {
     alert(seconds);
   }
+
+  random_color = () => Math.floor(Math.random() * 16777215).toString(16);
 }
 function mapStateToProps(state, props) {
   return {
