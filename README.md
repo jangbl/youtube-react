@@ -1,6 +1,17 @@
 # [API interface](https://console.developers.google.com/apis/credentials?pli=1&project=cansumcam)
 ![location](./readme/API_interface.png)
 
+# REST calls
+- localhost:5000 for dev
+    - prod TBD
+- POST a video link to be analyzed
+    - http://localhost:5000/bookmarks/?**video_link**=foo
+        - get back a list of occurrence ranges for all objects
+![occurence range for all objects](./readme/all_occurence_ranges.png)
+    - http://localhost:5000/bookmarks/?**video_link**=foo&**object_name**=bar
+        - specify an object
+![occurrence range for named object](./readme/obj_occurence_range.png)
+
 # 1 About
 
 This repository is the source code for the epic length [Build Youtube in React](https://productioncoder.com/build-youtube-in-react-part-1/) tutorial series provided by [productioncoder.com](https://productioncoder.com).
