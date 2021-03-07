@@ -9,11 +9,11 @@ import {youtubeLibraryLoaded} from './store/actions/api';
 import Trending from './containers/Trending/Trending';
 import Search from './containers/Search/Search';
 
-import API_KEY_YOUTUBE from './keys'
+import API_KEY_YOUTUBE from './keys.js'
 
 const API_KEY = process.env.REACT_APP_YT_API_KEY || API_KEY_YOUTUBE;
 // const API_KEY = API_KEY_YOUTUBE;
-console.log(JSON.stringify(API_KEY) + '-------------')
+console.log('API key: ' + JSON.stringify(API_KEY))
 
 class App extends Component {
   render() {
