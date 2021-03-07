@@ -1,6 +1,12 @@
 # [API interface](https://console.developers.google.com/apis/credentials?pli=1&project=cansumcam)
 ![location](./readme/API_interface.png)
 
+# yarn scripts
+- yarn start
+    - dev server hosting react client @localhost:3000
+- yarn server
+    - dev server hosting flask server @localhost:5000
+
 # REST calls
 - localhost:5000 for dev
     - prod TBD
