@@ -25,7 +25,6 @@ def hello_world():
 @app.route('/bookmarks/', methods=['GET', 'POST'])
 @cross_origin()  # enables CORS POST, for GET: response.headers.add("Access-Control-Allow-Origin", "*")
 def get_bookmarks():
-    print('called!')
     query_parameters = request.args
     video_ID = query_parameters.get('videoID')
     object_name = query_parameters.get('object_name')
@@ -33,8 +32,10 @@ def get_bookmarks():
     result = None
     if video_ID:
         if object_name:
+            print(f'for {object_name}')
             result = DUMMY_DICT.get(object_name, {})
         else:
+            print('all objects')
             result = DUMMY_DICT
     else:
         # use dummy return

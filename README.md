@@ -18,6 +18,10 @@
         - specify an object
 ![occurrence range for named object](./readme/obj_occurence_range.png)
 
+# videos
+App > Watch > WatchContent > VideoInfoBox
+
+
 # 1 About
 
 This repository is the source code for the epic length [Build Youtube in React](https://productioncoder.com/build-youtube-in-react-part-1/) tutorial series provided by [productioncoder.com](https://productioncoder.com).
