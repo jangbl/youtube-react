@@ -1,8 +1,15 @@
 # pip install pytube3 --upgrade
 
 from flask import Flask, jsonify, request
+from flask_cors import cross_origin, CORS
+# usage guide: https://flask-cors.readthedocs.io/en/latest/
 
 app = Flask(__name__)
+CORS(app)
+app.config['CORS_SUPPORTS_CREDENTIALS'] = True
+# https://stackoverflow.com/questions/61955973/issue-with-flask-cors-blocked-by-cors-policy-response-to-preflight-request-do
+# https://github.com/corydolphin/flask-cors/issues/200
+# app.config['CORS_HEADERS'] = 'Content-Type'
 
 DUMMY_DICT = {
     'car': [[5, 10], [30, 35]],
@@ -15,15 +22,16 @@ def hello_world():
     return 'Hello World!'
 
 
-@app.route('/bookmarks/', methods=['GET'])
+@app.route('/bookmarks/', methods=['GET', 'POST'])
+@cross_origin()  # enables CORS POST, for GET: response.headers.add("Access-Control-Allow-Origin", "*")
 def get_bookmarks():
-
+    print('called!')
     query_parameters = request.args
-    video_link = query_parameters.get('video_link')
+    video_ID = query_parameters.get('videoID')
     object_name = query_parameters.get('object_name')
 
     result = None
-    if video_link:
+    if video_ID:
         if object_name:
             result = DUMMY_DICT.get(object_name, {})
         else:

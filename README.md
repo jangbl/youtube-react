@@ -11,10 +11,10 @@
 - localhost:5000 for dev
     - prod TBD
 - POST a video link to be analyzed
-    - http://localhost:5000/bookmarks/?**video_link**=foo
+    - http://localhost:5000/bookmarks/?videoID=foo
         - get back a list of occurrence ranges for all objects
 ![occurence range for all objects](./readme/all_occurence_ranges.png)
-    - http://localhost:5000/bookmarks/?**video_link**=foo&**object_name**=bar
+    - http://localhost:5000/bookmarks/?videoID=foo&object_name=bar
         - specify an object
 ![occurrence range for named object](./readme/obj_occurence_range.png)
 
