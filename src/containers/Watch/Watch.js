@@ -22,13 +22,14 @@ export class Watch extends React.Component {
     // items: Tuple[name, ranges]
     // ranges: List[Tuple[start_frame, end_frame]]
 
-    const num_seconds = 50;
-    const videoWidth = 800;  // dummy val
+    const num_seconds = 50;  // todo: replace with length of vid in secs
+    const videoWidth = 800;  // todo: dummy val, replace with actual width!
     const bookmarks = this.state.bookmarks? Object.entries(this.state.bookmarks).map((item, i) => {
       let prev = 0;
       const color = `#${this.random_color()}`;
+
       return <div key={i}>{item[0]}<br/>
-            {item[1].map(range => {
+            {item[1].map((range, range_index) => {
                   //  fill in the blank ranges
                     const blank = range[0] !== prev? <button disabled style={{
                       width: Math.floor(videoWidth / num_seconds) * (range[0] - prev),
@@ -36,7 +37,12 @@ export class Watch extends React.Component {
                       backgroundColor: 'white'
                     }}>{prev}-{range[0]}</button> : null;
                     prev = range[1];
-
+                    // final range (edge case) todo: simplify logic
+                    const final = (item[1].length - 1 === range_index && num_seconds !== range[1])? <button disabled style={{
+                        width: Math.floor(videoWidth / num_seconds) * (num_seconds - prev),
+                        display: 'inline',
+                        backgroundColor: 'white'
+                    }}>{prev}-{num_seconds}</button> : null;
                   return (
                       <div style={{display: 'inline'}}>
                           {blank}
@@ -47,6 +53,7 @@ export class Watch extends React.Component {
                         }} onClick={() => this.change_timestamp(range[0])}>
                           {range[0]}-{range[1]}
                         </button>
+                          {final}
                       </div>
                       )
 
@@ -85,7 +92,7 @@ export class Watch extends React.Component {
   }
 
   fetchBookmarks = videoID => {
-    // note: POST request causes CORS prob
+    // todo: POST request causes CORS prob
     axios.get('http://127.0.0.1:5000/bookmarks', {
       params: {
         videoID,
