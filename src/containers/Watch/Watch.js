@@ -14,7 +14,10 @@ import axios from 'axios'
 export class Watch extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      video_start: 5,
+      video_end: 10,
+    };
   }
 
   render() {
@@ -22,50 +25,8 @@ export class Watch extends React.Component {
     // console.log('video ID in watch component: ' + videoId);
     // items: Tuple[name, ranges]
     // ranges: List[Tuple[start_frame, end_frame]]
-
-    const num_seconds = 50;  // todo: replace with length of vid in secs
-    const videoWidth = 800;  // todo: dummy val, replace with actual width!
-    const bookmarks = this.state.bookmarks ? Object.entries(this.state.bookmarks).map((item, i) => {
-        let prev = 0;
-        const color = `#${this.random_color()}`;
-
-        return <div key={i}>{item[0]}<br/>
-          {item[1].map((range, range_index) => {
-              //  fill in the blank ranges
-              const blank = range[0] !== prev ? <button disabled style={{
-                width: Math.floor(videoWidth / num_seconds) * (range[0] - prev),
-                display: 'inline',
-                backgroundColor: 'white'
-              }}>{prev}-{range[0]}</button> : null;
-              prev = range[1];
-              // final range (edge case) todo: simplify logic
-              const final = (item[1].length - 1 === range_index && num_seconds !== range[1]) ? <button disabled style={{
-                width: Math.floor(videoWidth / num_seconds) * (num_seconds - prev),
-                display: 'inline',
-                backgroundColor: 'white'
-              }}>{prev}-{num_seconds}</button> : null;
-              return (
-                <div style={{display: 'inline'}}>
-                  {blank}
-                  <button style={{
-                    width: Math.floor(videoWidth / num_seconds) * (range[1] - range[0]),
-                    display: 'inline',
-                    backgroundColor: color
-                  }} onClick={() => this.change_timestamp(range[0])}>
-                    {range[0]}-{range[1]}
-                  </button>
-                  {final}
-                </div>
-              )
-
-            }
-          )}
-        </div>
-      }
-    ) : null;
     return (
       <div>
-        <div>{bookmarks}</div>
         {/*<div>{this.state.bookmarks & this.state.bookmarks | 'loading'}</div>*/}
         <WatchContent videoId={videoId} channelId={this.props.channelId}
                       bottomReachedCallback={this.fetchMoreComments}
@@ -78,8 +39,6 @@ export class Watch extends React.Component {
     if (this.props.youtubeLibraryLoaded) {
       this.fetchWatchContent();
     }
-    this.fetchBookmarks(this.getVideoId());
-    console.log('fetched bookmarks');
   }
 
   componentDidUpdate(prevProps) {
@@ -92,17 +51,36 @@ export class Watch extends React.Component {
     return getSearchParam(this.props.location, 'v');
   }
 
-  fetchBookmarks = videoID => {
-    // todo: POST request causes CORS prob
-    axios.get('http://127.0.0.1:5000/bookmarks', {
-      params: {
-        videoID,
-        object_name: null,
-      }
-    }).then(response => {
-      console.log(JSON.stringify(response.data));
-      this.setState({bookmarks: response.data});
-    });
+  // from: https://gist.github.com/jrtaylor-com/42883b0e28a45b8362e7
+  youtubeDurationToSeconds(duration) {
+    let hours   = 0;
+    let minutes = 0;
+    let seconds = 0;
+
+    // Remove PT from string ref: https://developers.google.com/youtube/v3/docs/videos#contentDetails.duration
+    duration = duration.replace('PT','');
+
+    // If the string contains hours parse it and remove it from our duration string
+    if (duration.indexOf('H') > -1) {
+      const hours_split = duration.split('H');
+      hours       = parseInt(hours_split[0]);
+      duration    = hours_split[1];
+    }
+
+    // If the string contains minutes parse it and remove it from our duration string
+    if (duration.indexOf('M') > -1) {
+      const minutes_split = duration.split('M');
+      minutes       = parseInt(minutes_split[0]);
+      duration      = minutes_split[1];
+    }
+
+    // If the string contains seconds parse it and remove it from our duration string
+    if (duration.indexOf('S') > -1) {
+      const seconds_split = duration.split('S');
+      seconds       = parseInt(seconds_split[0]);
+    }
+
+    return (hours * 60 * 60) + (minutes * 60) + seconds;
   }
 
   fetchWatchContent = () => {
@@ -123,7 +101,6 @@ export class Watch extends React.Component {
     alert(seconds);
   }
 
-  random_color = () => Math.floor(Math.random() * 16777215).toString(16);
 }
 
 function mapStateToProps(state, props) {
