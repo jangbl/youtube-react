@@ -98,6 +98,9 @@ export function Video(props) {
                         width: Math.floor((opts.width / duration) * (range.end - range.start)),
                         height: 25,
                         display: 'inline',
+                        padding: 0,
+                        margin: 0,
+                        border: 0,
                         backgroundColor: range.occur ? color : 'white'
                       }}
                       onClick={() => player.seekTo(range.start)}>{/*{range.start}-{range.end}*/}</button>
