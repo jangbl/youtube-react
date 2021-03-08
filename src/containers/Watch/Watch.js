@@ -16,6 +16,7 @@ export class Watch extends React.Component {
     super(props);
     this.state = {};
   }
+
   render() {
     const videoId = this.getVideoId();
     // console.log('video ID in watch component: ' + videoId);
@@ -24,52 +25,52 @@ export class Watch extends React.Component {
 
     const num_seconds = 50;  // todo: replace with length of vid in secs
     const videoWidth = 800;  // todo: dummy val, replace with actual width!
-    const bookmarks = this.state.bookmarks? Object.entries(this.state.bookmarks).map((item, i) => {
-      let prev = 0;
-      const color = `#${this.random_color()}`;
+    const bookmarks = this.state.bookmarks ? Object.entries(this.state.bookmarks).map((item, i) => {
+        let prev = 0;
+        const color = `#${this.random_color()}`;
 
-      return <div key={i}>{item[0]}<br/>
-            {item[1].map((range, range_index) => {
-                  //  fill in the blank ranges
-                    const blank = range[0] !== prev? <button disabled style={{
-                      width: Math.floor(videoWidth / num_seconds) * (range[0] - prev),
-                      display: 'inline',
-                      backgroundColor: 'white'
-                    }}>{prev}-{range[0]}</button> : null;
-                    prev = range[1];
-                    // final range (edge case) todo: simplify logic
-                    const final = (item[1].length - 1 === range_index && num_seconds !== range[1])? <button disabled style={{
-                        width: Math.floor(videoWidth / num_seconds) * (num_seconds - prev),
-                        display: 'inline',
-                        backgroundColor: 'white'
-                    }}>{prev}-{num_seconds}</button> : null;
-                  return (
-                      <div style={{display: 'inline'}}>
-                          {blank}
-                        <button style={{
-                          width: Math.floor(videoWidth / num_seconds) * (range[1] - range[0]),
-                          display: 'inline',
-                          backgroundColor: color
-                        }} onClick={() => this.change_timestamp(range[0])}>
-                          {range[0]}-{range[1]}
-                        </button>
-                          {final}
-                      </div>
-                      )
+        return <div key={i}>{item[0]}<br/>
+          {item[1].map((range, range_index) => {
+              //  fill in the blank ranges
+              const blank = range[0] !== prev ? <button disabled style={{
+                width: Math.floor(videoWidth / num_seconds) * (range[0] - prev),
+                display: 'inline',
+                backgroundColor: 'white'
+              }}>{prev}-{range[0]}</button> : null;
+              prev = range[1];
+              // final range (edge case) todo: simplify logic
+              const final = (item[1].length - 1 === range_index && num_seconds !== range[1]) ? <button disabled style={{
+                width: Math.floor(videoWidth / num_seconds) * (num_seconds - prev),
+                display: 'inline',
+                backgroundColor: 'white'
+              }}>{prev}-{num_seconds}</button> : null;
+              return (
+                <div style={{display: 'inline'}}>
+                  {blank}
+                  <button style={{
+                    width: Math.floor(videoWidth / num_seconds) * (range[1] - range[0]),
+                    display: 'inline',
+                    backgroundColor: color
+                  }} onClick={() => this.change_timestamp(range[0])}>
+                    {range[0]}-{range[1]}
+                  </button>
+                  {final}
+                </div>
+              )
 
-                }
-            )}
-          </div>
-        }
+            }
+          )}
+        </div>
+      }
     ) : null;
     return (
-        <div>
-          <div>{bookmarks}</div>
-          {/*<div>{this.state.bookmarks & this.state.bookmarks | 'loading'}</div>*/}
-          <WatchContent videoId={videoId} channelId={this.props.channelId}
-                        bottomReachedCallback={this.fetchMoreComments}
-                        nextPageToken={this.props.nextPageToken}/>
-        </div>
+      <div>
+        <div>{bookmarks}</div>
+        {/*<div>{this.state.bookmarks & this.state.bookmarks | 'loading'}</div>*/}
+        <WatchContent videoId={videoId} channelId={this.props.channelId}
+                      bottomReachedCallback={this.fetchMoreComments}
+                      nextPageToken={this.props.nextPageToken}/>
+      </div>
     );
   }
 
@@ -124,6 +125,7 @@ export class Watch extends React.Component {
 
   random_color = () => Math.floor(Math.random() * 16777215).toString(16);
 }
+
 function mapStateToProps(state, props) {
   return {
     youtubeLibraryLoaded: getYoutubeLibraryLoaded(state),

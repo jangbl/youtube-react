@@ -23,11 +23,12 @@ class WatchContent extends React.Component {
           <VideoMetadata className='metadata' video={this.props.video}/>
           <VideoInfoBox className='video-info-box' video={this.props.video} channel={this.props.channel}/>
           <RelatedVideos className='related-videos' videos={this.props.relatedVideos}/>
-          <Comments className='comments' comments={this.props.comments}  amountComments={this.props.amountComments}/>
+          <Comments className='comments' comments={this.props.comments} amountComments={this.props.amountComments}/>
         </div>
       </InfiniteScroll>
     );
   }
+
   shouldShowLoader() {
     return !!this.props.nextPageToken;
   }
