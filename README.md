@@ -1,3 +1,11 @@
+# task assignment guide
+- pick a task & use ~~strikeout~~ to assign it to yourself
+- when complete, document it well!
+- (if code) create new branch named after task
+      - ask someone to code-review
+      - merge into main branch
+- move item from todo to current version
+
 # todos
 - background
     - find youtube views distribution or how many vids have 1 million views in total
@@ -17,6 +25,13 @@
     - topic modeling (subititles) & visual topic modeling
     - pic to caption models
     - text summarization
+
+# versions
+## 0.0.1 (current) 
+
+## 0.0.0
+- front: display highlights as colored div using dummy data
+- back: download vid, extract frames, save annotation
 
 # [API interface](https://console.developers.google.com/apis/credentials?pli=1&project=cansumcam)
 or [create your own credentials](https://console.developers.google.com/apis/credentials)
