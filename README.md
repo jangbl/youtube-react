@@ -12,7 +12,7 @@
 - frontend
     - ~~improve the UI - use template from figma to make it similar~~
     - refactor code to adhere to react best practices
-    - ~~next/prev occurence, next/prev object keyboard shortcut
+    - ~~next/prev occurence, next/prev object keyboard shortcut~~
 - backend
     - ~~find out how to use colab as backend / server, and tie GET endpoints to code cell execution~~
     - ~~fix colab inference code~~
@@ -23,7 +23,7 @@
         - ~~novel object labeling pipeline~~
 - literature review
     - topic modeling (subititles) & visual topic modeling
-    - ~~pic to caption models
+    - ~~pic to caption models~~
     - text summarization
 
 # versions
