@@ -93,7 +93,7 @@ export function Video(props) {
         console.log(ranges);
         return (<div key={label}>{label}<br/>
             {ranges.map((range, range_index) =>
-              <button disabled={!range.occur}
+              <button disabled={!range.occur} onMouseOver={'pointer'}
                       style={{
                         width: Math.floor((opts.width / duration) * (range.end - range.start)),
                         height: 25,
