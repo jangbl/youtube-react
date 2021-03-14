@@ -10,20 +10,20 @@
 - background
     - find youtube views distribution or how many vids have 1 million views in total
 - frontend
-    - improve the UI
+    - ~~improve the UI - use template from figma to make it similar~~
     - refactor code to adhere to react best practices
-    - next/prev occurence, next/prev object keyboard shortcut
+    - ~~next/prev occurence, next/prev object keyboard shortcut~~
 - backend
-    - find out how to use colab as backend / server, and tie GET endpoints to code cell execution
-    - fix colab inference code
-    - [use python 3.8](https://stackoverflow.com/questions/60775160/install-python-3-8-kernel-in-google-colaboratory)
+    - ~~find out how to use colab as backend / server, and tie GET endpoints to code cell execution~~
+    - ~~fix colab inference code~~
+    - ~~[use python 3.8](https://stackoverflow.com/questions/60775160/install-python-3-8-kernel-in-google-colaboratory)~~
 - ML
-    - get range training data: a bunch of youtube videos with chapters and or highlights
-    - check if uoft labeling suite is avail, and how to use it for polygon labeling
-        - novel object labeling pipeline
+    - ~~get range training data: a bunch of youtube videos with chapters and or highlights~~
+    - ~~check if uoft labeling suite is avail, and how to use it for polygon labeling~~
+        - ~~novel object labeling pipeline~~
 - literature review
     - topic modeling (subititles) & visual topic modeling
-    - pic to caption models
+    - ~~pic to caption models~~
     - text summarization
 
 # versions
