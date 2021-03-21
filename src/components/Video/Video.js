@@ -26,8 +26,8 @@ export function Video(props) {
   // console.log('video.js this: ' + player)
 
   const opts = {
-    height: '390',
-    width: '640',
+    height: '400',
+    width: '700',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -96,10 +96,10 @@ export function Video(props) {
               <button disabled={!range.occur} onMouseOver={'pointer'}
                       style={{
                         width: Math.floor((opts.width / duration) * (range.end - range.start)),
-                        height: 25,
+                        height: 40,
                         display: 'inline',
-                        padding: 0,
-                        margin: 0,
+                        padding: 10,
+                        margin: 5,
                         border: 0,
                         backgroundColor: range.occur ? color : 'white'
                       }}

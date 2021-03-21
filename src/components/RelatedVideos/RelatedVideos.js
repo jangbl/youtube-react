@@ -4,6 +4,7 @@ import './RelatedVideos.scss';
 import {NextUpVideo} from './NextUpVideo/NextUpVideo';
 
 export function RelatedVideos(props) {
+  /*
   if (!props.videos || !props.videos.length) {
     return <div className='related-videos'/>;
   }
@@ -19,11 +20,19 @@ export function RelatedVideos(props) {
                     search={`?v=${relatedVideo.id}`}
                     horizontal={true}/>
   ));
-
+*/
   return (
+
+
+    <div> 
+
+    </div> 
+
+    /*
     <div className='related-videos'>
       <NextUpVideo video={nextUpVideo}/>
       {relatedVideosPreviews}
     </div>
+    */
   );
 }

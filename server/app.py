@@ -12,8 +12,10 @@ app.config['CORS_SUPPORTS_CREDENTIALS'] = True
 # app.config['CORS_HEADERS'] = 'Content-Type'
 
 DUMMY_DICT = {
-    'car': [[5, 10], [30, 35]],
-    'bicycle': [[15, 35]]
+    'boat': [[5, 10], [30, 45]],
+    'fish': [[15, 500]],
+    'kite': [[15, 20], [50, 80]],
+    'chair': [[60, 200]]
 }
 
 

@@ -37,12 +37,15 @@ export class VideoInfoBox extends React.Component {
           </div>
           <Button className='subscribe' color='youtube'>{buttonText}</Button> */}
           <div className="video-description">
+
             {/* <div className={descriptionTextClass}>
               {descriptionParagraphs}
             </div> */}
-            <h1>Summary</h1>
-            <h2>0:00 - Item 1 Display...</h2>
-            <h2>1:02 - Item 2 Appears...</h2>
+          
+          
+        
+        
+            
             {/* <Button compact onClick={this.onToggleCollapseButtonClick}>{buttonTitle}</Button> */}
           </div>
         </div>
