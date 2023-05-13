@@ -17,7 +17,7 @@ export class HeaderNav extends React.Component {
       <Menu borderless className='top-menu' fixed='top'>
         {/* 2 */}
         <Menu.Item header className='logo'>
-          <Link to='/'><Image src={logo} size='tiny'/></Link>
+          <Link to='/'><Image src={logo} size='medium'/></Link>
         </Menu.Item>
         {/* 3 */}
         <Menu.Menu className='nav-container'>
@@ -27,6 +27,8 @@ export class HeaderNav extends React.Component {
               <Form.Field>
                 <Input placeholder='Search'
                        size='small'
+                       width="50%"
+                       style={{width: "300%"}}
                        action='Go'
                        value={this.state.query}
                        onChange={this.onInputChange}
@@ -35,25 +37,25 @@ export class HeaderNav extends React.Component {
             </Form>
           </Menu.Item>
           {/* 5 */}
-          <Menu.Menu position='right'>
-            <Menu.Item>
-              {/* 6 */}
-              <Icon className='header-icon' name='video camera' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='grid layout' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='chat' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='alarm' size='large'/>
-            </Menu.Item>
-            {/* 7*/}
-            <Menu.Item name='avatar'>
-              <Image src='https://via.placeholder.com/80x80' avatar/>
-            </Menu.Item>
-          </Menu.Menu>
+          {/*<Menu.Menu position='right'>*/}
+          {/*  <Menu.Item>*/}
+          {/*    /!* 6 *!/*/}
+          {/*    <Icon className='header-icon' name='video camera' size='large'/>*/}
+          {/*  </Menu.Item>*/}
+          {/*  <Menu.Item>*/}
+          {/*    <Icon className='header-icon' name='grid layout' size='large'/>*/}
+          {/*  </Menu.Item>*/}
+          {/*  <Menu.Item>*/}
+          {/*    <Icon className='header-icon' name='chat' size='large'/>*/}
+          {/*  </Menu.Item>*/}
+          {/*  <Menu.Item>*/}
+          {/*    <Icon className='header-icon' name='alarm' size='large'/>*/}
+          {/*  </Menu.Item>*/}
+          {/*  /!* 7*!/*/}
+          {/*  <Menu.Item name='avatar'>*/}
+          {/*    <Image src='https://via.placeholder.com/80x80' avatar/>*/}
+          {/*  </Menu.Item>*/}
+          {/*</Menu.Menu>*/}
         </Menu.Menu>
       </Menu>
     );

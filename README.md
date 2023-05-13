@@ -1,3 +1,63 @@
+# task assignment guide
+- pick a task & use ~~strikeout~~ to assign it to yourself
+- when complete, document it well!
+- (if code) create new branch named after task
+      - ask someone to code-review
+      - merge into main branch
+- move item from todo to current version
+
+# todos
+- background
+    - find youtube views distribution or how many vids have 1 million views in total
+- frontend
+    - ~~improve the UI - use template from figma to make it similar~~
+    - refactor code to adhere to react best practices
+    - ~~next/prev occurence, next/prev object keyboard shortcut~~
+- backend
+    - ~~find out how to use colab as backend / server, and tie GET endpoints to code cell execution~~
+    - ~~fix colab inference code~~
+    - ~~[use python 3.8](https://stackoverflow.com/questions/60775160/install-python-3-8-kernel-in-google-colaboratory)~~
+- ML
+    - ~~get range training data: a bunch of youtube videos with chapters and or highlights~~
+    - ~~check if uoft labeling suite is avail, and how to use it for polygon labeling~~
+        - ~~novel object labeling pipeline~~
+- literature review
+    - topic modeling (subititles) & visual topic modeling
+    - ~~pic to caption models~~
+    - text summarization
+
+# versions
+## 0.0.1 (current) 
+
+## 0.0.0
+- front: display highlights as colored div using dummy data
+- back: download vid, extract frames, save annotation
+
+# [API interface](https://console.developers.google.com/apis/credentials?pli=1&project=cansumcam)
+or [create your own credentials](https://console.developers.google.com/apis/credentials)
+![location](./readme/API_interface.png)
+
+# yarn scripts
+- yarn start
+    - dev server hosting react client @localhost:3000
+- yarn server
+    - dev server hosting flask server @localhost:5000
+
+# REST calls
+- localhost:5000 for dev
+    - prod TBD
+- POST a video link to be analyzed
+    - http://localhost:5000/bookmarks/?videoID=foo
+        - get back a list of occurrence ranges for all objects
+![occurence range for all objects](./readme/all_occurence_ranges.png)
+    - http://localhost:5000/bookmarks/?videoID=foo&object_name=bar
+        - specify an object
+![occurrence range for named object](./readme/obj_occurence_range.png)
+
+# videos
+App > Watch > WatchContent > VideoInfoBox
+
+
 # 1 About
 
 This repository is the source code for the epic length [Build Youtube in React](https://productioncoder.com/build-youtube-in-react-part-1/) tutorial series provided by [productioncoder.com](https://productioncoder.com).

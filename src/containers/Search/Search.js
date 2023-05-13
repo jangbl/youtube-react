@@ -43,7 +43,7 @@ class Search extends React.Component {
   }
 
   bottomReachedCallback = () => {
-    if(this.props.nextPageToken) {
+    if (this.props.nextPageToken) {
       this.props.searchForVideos(this.getSearchQuery(), this.props.nextPageToken, 25);
     }
   };

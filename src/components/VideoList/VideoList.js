@@ -9,10 +9,11 @@ export class VideoList extends React.Component {
     const videoPreviews = this.getVideoPreviews();
     return (
       <React.Fragment>
-        <SideBar/>
+        {/* <SideBar/> */}
         <div className='video-list'>
           <InfiniteScroll bottomReachedCallback={this.props.bottomReachedCallback} showLoader={this.props.showLoader}>
             {videoPreviews}
+            
           </InfiniteScroll>
         </div>
       </React.Fragment>

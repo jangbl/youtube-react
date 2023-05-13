@@ -19,15 +19,16 @@ class WatchContent extends React.Component {
     return (
       <InfiniteScroll bottomReachedCallback={this.props.bottomReachedCallback} showLoader={this.shouldShowLoader()}>
         <div className='watch-grid'>
-          <Video className='video' id={this.props.videoId}/>
+          <Video className='video' id={this.props.videoId} start={this.props.video_start} end={this.props.video_end} />
           <VideoMetadata className='metadata' video={this.props.video}/>
           <VideoInfoBox className='video-info-box' video={this.props.video} channel={this.props.channel}/>
           <RelatedVideos className='related-videos' videos={this.props.relatedVideos}/>
-          <Comments className='comments' comments={this.props.comments}  amountComments={this.props.amountComments}/>
+          <Comments className='comments' comments={this.props.comments} amountComments={this.props.amountComments}/>
         </div>
       </InfiniteScroll>
     );
   }
+
   shouldShowLoader() {
     return !!this.props.nextPageToken;
   }

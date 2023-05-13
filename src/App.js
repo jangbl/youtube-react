@@ -9,7 +9,12 @@ import {youtubeLibraryLoaded} from './store/actions/api';
 import Trending from './containers/Trending/Trending';
 import Search from './containers/Search/Search';
 
-const API_KEY = process.env.REACT_APP_YT_API_KEY;
+import API_KEY_YOUTUBE from './keys.js';
+
+const API_KEY = process.env.REACT_APP_YT_API_KEY || API_KEY_YOUTUBE;
+//const API_KEY = API_KEY_YOUTUBE;
+
+console.log('API key: ' + JSON.stringify(API_KEY));
 
 class App extends Component {
   render() {
@@ -24,6 +29,7 @@ class App extends Component {
       </AppLayout>
     );
   }
+
   componentDidMount() {
     this.loadYoutubeApi();
   }
