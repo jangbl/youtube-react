@@ -4,6 +4,8 @@ This repository is the source code for the epic length [Build Youtube in React](
 
 <h3 align="center">Please help this repo with a ⭐️ if you find it useful! 😁</h3>
 
+For updates, please follow [@_jgoebel](https://twitter.com/_jgoebel) on Twitter.
+
 # 2 Demo
 
 **[Please watch the demo on Youtube](https://www.youtube.com/watch?v=E7wJTI-1dvQ)**
